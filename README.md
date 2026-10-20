@@ -1,8 +1,29 @@
-# RigAndBone2D for Apple Silicon
+# RigAndBone2D
 
-แอป Mac รุ่นต้นแบบสำหรับสร้างแอนิเมชันตัวละคร 2D แบบแยกชิ้นและกระดูก พร้อม API ให้ AI agent ทำงานโดยตรง
+เครื่องมือสร้างแอนิเมชันตัวละคร 2D แบบแยกชิ้นและกระดูก (2D Skeletal Animation) พร้อม Forward Kinematics, Timeline Keyframing และระบบส่งออก Sprite Sheet
 
-## เปิดใช้งาน
+🌐 **Web Edition (ออนไลน์):** [https://jirapatchumee-netizen.github.io/RigAndBone2D/](https://jirapatchumee-netizen.github.io/RigAndBone2D/)  
+*(เปิดใช้งานได้ทันทีบนทุกเบราว์เซอร์ ไม่ต้องติดตั้งโปรแกรม รองรับ Windows, Mac, iPad, Android)*
+
+---
+
+## ⚡ การรันและพัฒนาเวอร์ชันเว็บ (Web Development)
+
+```sh
+# วิธีที่ 1: ดับเบิลคลิกไฟล์นี้ใน Finder หรือรันผ่านเทอร์มินัล
+./RigAndBone2D-Web.command
+
+# วิธีที่ 2: รันผ่านคำสั่ง npm
+cd web
+npm run dev
+```
+
+- มีระบบ **Hot Module Replacement (HMR)** แก้ไขโค้ดใน `web/src/` ปุ๊บ หน้าเว็บจะอัปเดตทันทีแบบเรียลไทม์
+- เมื่อพัฒนาเสร็จ แค่รัน `git push origin main` ระบบ **GitHub Actions** จะ Build และ Deploy Patch เวอร์ชันใหม่ขึ้น GitHub Pages ให้อัตโนมัติใน ~30 วินาที
+
+---
+
+## เปิดใช้งานเวอร์ชัน Mac Native App
 
 เปิด `dist/RigAndBone2D.app` หรือรัน:
 
