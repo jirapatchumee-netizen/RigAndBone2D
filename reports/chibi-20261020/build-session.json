@@ -1,0 +1,44 @@
+[
+  {
+    "request": {
+      "id": "sdk-1",
+      "command": "apply_recipe",
+      "recipe": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/recipes/chibi/idle.rigrecipe.json",
+      "replace": false,
+      "dry_run": false,
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/chibi-20261020/Chibi.rig2d"
+    },
+    "response": {
+      "id": "sdk-1",
+      "ok": true,
+      "result": {
+        "assets": 16,
+        "boneIDs": [
+          "root",
+          "pelvis",
+          "torso",
+          "neck",
+          "head",
+          "upper-arm-back",
+          "forearm-back",
+          "hand-back",
+          "upper-arm-front",
+          "forearm-front",
+          "hand-front",
+          "thigh-back",
+          "shin-back",
+          "foot-back",
+          "thigh-front",
+          "shin-front",
+          "foot-front"
+        ],
+        "bones": 17,
+        "dryRun": false,
+        "duration": 2,
+        "keyframes": 5,
+        "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/chibi-20261020/Chibi.rig2d",
+        "revision": "af0962772e68cbc4c85fa8c306a4aa0426623b8f48b2c4067bfec0f01554572c"
+      }
+    }
+  }
+]

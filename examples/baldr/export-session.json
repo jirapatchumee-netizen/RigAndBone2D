@@ -1,0 +1,20 @@
+{
+  "request": {
+    "id": "baldr-export",
+    "command": "export_sheet",
+    "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/baldr/Baldr.rig2d",
+    "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/baldr/Baldr-sheet.png"
+  },
+  "response": {
+    "id": "baldr-export",
+    "ok": true,
+    "result": {
+      "cellHeight": 384,
+      "cellWidth": 384,
+      "columns": 6,
+      "duration": 3,
+      "frames": 24,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/baldr/Baldr-sheet.png"
+    }
+  }
+}

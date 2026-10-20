@@ -1,0 +1,6 @@
+ts	phase	decision	why	evidence	result
+2026-10-19T18:41:41.922430+00:00	design	Store optional image offsets in bone local coordinates	Preserve legacy decode and skeletal transforms	../../Sources/RigAndBone2D/Project.swift	implemented
+2026-10-19T18:41:41.922527+00:00	deletion	Delete full subtree only with explicit include_descendants	Removing an animated parent alone cannot preserve child motion in the existing format	../../Sources/RigAndBone2D/ProjectCommands.swift	5 behavior tests pass
+2026-10-19T18:41:41.922530+00:00	verification	Drive drag and save through real GUI	API render checks cannot prove mouse movement handling	gui-proof.json	Only torso image offsets changed
+2026-10-19T18:41:41.922531+00:00	review	Reject malformed keyframe angle count at boundary	Reviewer found short frame followed by delete crashed API; reproduced before fix	../../tests/bone_editing.py	structured error and process recovery pass
+2026-10-19T18:41:41.922533+00:00	handoff	Retain source Chibi artwork and original project	These controls enable manual alignment without rewriting source images	../../examples/chibi-20261020/Chibi.rig2d	original untouched

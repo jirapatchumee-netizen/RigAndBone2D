@@ -1,0 +1,13 @@
+Use case: stylized-concept. Redo the EXPLODED PARTS SHEET of reference 2 (same 1536x1024 transparent canvas, same 11 pieces in the same 3-row layout and cells: row 1 hat, torso, pelvis; row 2 right upper arm, right forearm+hand, left upper arm, left forearm+hand; row 3 right thigh, right shin+boot, left thigh, left shin+boot), same premium soft faux-3D toy style, NO black outlines, NO ground shadow, NO glow, NO halo, NO bloom, crisp clean silhouettes, genuinely transparent background, no text. NO contact between pieces, at least 5% gutters, everything inside the canvas. The character is the exact farmer of reference 1.
+FIX THESE PROBLEMS of reference 2:
+1. SCALE: draw all pieces at ONE consistent scale that matches the assembled farmer in reference 1 (the whole body assembled from these pieces must look like reference 1: same chunky chibi proportions, short legs, big boots). Pieces must be noticeably smaller than in reference 2 (the legs and boots were about 40% too big, the hat about 15% too big). Keep them inside their cells with margin.
+2. STRAIGHT POSE: every limb piece is drawn perfectly straight, hanging vertically, symmetrical, NOT tilted or bent; the hand hangs straight down with relaxed fingers.
+3. HAT: seen from the FRONT at eye level (straight-on side view of the brim, crown and band, flower on the left side of the band), hat axis vertical, NOT tilted and NOT showing its underside.
+4. NO PLUGS: no skin-coloured round plugs, caps, nubs or peg shapes sticking out of any piece at the joints. Each joint end is simply the natural rounded end of the clothing or limb, fully painted (about 15% longer than needed so it can tuck under the neighbouring piece). Exception: the torso keeps a short neck base at the top centre only.
+5. PELVIS: the overall shorts/seat piece ONLY, waistband to the leg openings, with the two leg openings empty: no thigh shapes, no legs, no skin inside them.
+6. SYMMETRY: left and right pieces are identical mirror images of each other except for the lighting (light stays from the upper left).
+Keep exactly: straw hat #E6BC62 with small white flower, light skin #F6D5B1, cream shirt with rolled cuffs, sky-blue overalls #5B97C9 with honey-wood buttons and chest pocket, brown boots #7A4A26 with honey soles. Nothing else in the image: no head, no face, no props, no labels.
+
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/Assets/Source/chr_f1_farmer/v001/parts/char_farmer_hero_v01.png
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/Assets/Inbox/CHR-F2-farmer-parts/master.png
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/Assets/Inbox/S0-style-anchor/master.png

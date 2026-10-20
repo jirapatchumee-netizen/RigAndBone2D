@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "source": "../../../Game Magic Idle /Asset/Chibi_Anime_Rigging_Parts_Sheet.png",
+  "parts": [
+    {
+      "id": "head",
+      "rect": [
+        540,
+        5,
+        910,
+        347
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "neck",
+      "rect": [
+        918,
+        235,
+        1038,
+        344
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "torso",
+      "rect": [
+        664,
+        347,
+        873,
+        591
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "pelvis",
+      "rect": [
+        650,
+        596,
+        907,
+        756
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "upper-arm-back",
+      "rect": [
+        500,
+        340,
+        637,
+        529
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "forearm-back",
+      "rect": [
+        480,
+        526,
+        582,
+        674
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "hand-back",
+      "rect": [
+        480,
+        674,
+        616,
+        809
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "upper-arm-front",
+      "rect": [
+        919,
+        346,
+        1068,
+        530
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "forearm-front",
+      "rect": [
+        993,
+        524,
+        1095,
+        674
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "hand-front",
+      "rect": [
+        960,
+        674,
+        1095,
+        808
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "thigh-back",
+      "rect": [
+        615,
+        743,
+        766,
+        977
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "thigh-front",
+      "rect": [
+        818,
+        741,
+        965,
+        978
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "shin-back",
+      "rect": [
+        573,
+        977,
+        697,
+        1188
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "shin-front",
+      "rect": [
+        880,
+        977,
+        1008,
+        1188
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "foot-back",
+      "rect": [
+        515,
+        1186,
+        689,
+        1358
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "foot-front",
+      "rect": [
+        899,
+        1186,
+        1109,
+        1348
+      ],
+      "isolate": "largest_alpha"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "rig-and-bone-2d-web",
+  "version": "1.0.0",
+  "description": "RigAndBone2D Web Edition for 2D Skeletal Animation",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "vite": "^6.2.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

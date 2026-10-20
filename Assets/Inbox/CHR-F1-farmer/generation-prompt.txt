@@ -1,0 +1,13 @@
+Use case: stylized-concept. ORIGINAL cozy mobile farm-simulation MAIN CHARACTER SHEET on a genuinely transparent background, 1536x1024, premium soft faux-3D toy style identical to the attached approved style anchor: glossy soft vinyl/clay volumes, broad gentle highlights, fixed orthographic three-quarter view from above about 30 degrees, warm soft key light from the upper left, cool soft shadows, NO black outlines, NO ground shadow or contact shadow, NO outer glow, NO halo, NO bloom, crisp clean silhouettes. FIVE clearly separated items of the SAME character, NO contact between items, generous empty transparent gutters (at least 4% of the image), everything fully inside the canvas. No text, labels, borders, grids or watermarks.
+CHARACTER: a friendly young farmer kid, chibi proportions (head about 45% of total height), short messy brown hair, big glossy dark-brown eyes with a tiny white highlight, rosy cheeks, light skin (#F6D5B1), cream/white short-sleeve shirt, sky-blue overalls (#5B97C9) with two round honey-wood buttons, bare hands, brown boots (#7A4A26), and a straw hat (#E6BC62) with a small white flower on the band. Original design.
+LEFT, x 3-40% y 4-96%: the WHOLE farmer standing, full body, facing slightly toward the viewer (three-quarter front), relaxed neutral pose: arms hanging slightly away from the torso with open relaxed hands, legs slightly apart with both boots fully visible, wearing the straw hat, happy closed-mouth smile. Limbs must be clearly readable and not overlapping the torso so they can be separated later.
+RIGHT, four HEAD-ONLY variants of the exact same head, NO hat (hair fully visible), same size and same angle as the head of the full-body figure, arranged in a 2x2 grid:
+ - top-left x 44-70% y 4-48%: happy, eyes open, gentle closed-mouth smile
+ - top-right x 72-98% y 4-48%: eyes closed in a blink, same smile
+ - bottom-left x 44-70% y 52-96%: talking, eyes open, small open mouth
+ - bottom-right x 72-98% y 52-96%: surprised, eyes wide, small round open mouth
+Nothing else in the image: no props, no basket, no tools, no animals.
+
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/Assets/Inbox/S0-style-anchor/master.png
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/LumioValley/Reference/Art_Style_Soft_3D_Toy_Reference.png
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/LumioValley/Reference/UI_Style_Soft_3D_Toy_Reference.png

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "inquisitor",
+  "sourceRevision": "fa5bb2a9ffde5297c6c9828b943593d66927de06a44e29f2f226501afbb8c313",
+  "godotVersion": "4.7.2.stable.official.ed1daf0bf",
+  "scene": "visual.tscn",
+  "atlas": "atlas.png",
+  "coordinates": "pixels, Y down, radians in Godot",
+  "boneIds": [
+    "root",
+    "torso",
+    "determined-head",
+    "back-arm",
+    "guard-fist",
+    "weapon-arm",
+    "gripping-hand",
+    "morning-star-handle",
+    "back-thigh",
+    "back-boot",
+    "front-thigh",
+    "front-boot",
+    "chain",
+    "morning-star-head",
+    "coat-tails",
+    "back-shoulder-armor",
+    "front-shoulder-armor"
+  ],
+  "sockets": {
+    "weapon_socket": "gripping-hand",
+    "weapon_tip": "morning-star-head"
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "length": 0.01,
+      "loop": false,
+      "events": []
+    },
+    {
+      "name": "attack",
+      "length": 3,
+      "loop": false,
+      "events": [
+        {
+          "name": "hit_start",
+          "time": 1.1
+        },
+        {
+          "name": "hit_end",
+          "time": 1.5
+        },
+        {
+          "name": "attack_finished",
+          "time": 3
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "visibleSprites": 16,
+    "uniqueRegions": 15,
+    "atlasSize": [
+      256,
+      678
+    ],
+    "rgba8BaseBytes": 694272,
+    "sourcePartRGBA8Bytes": 3768224,
+    "atlasPNGBytes": 142178,
+    "sceneBytes": 24968
+  },
+  "visualReviewRequired": true,
+  "runtimeFiles": [
+    "atlas.png",
+    "visual.tscn"
+  ],
+  "verification": {
+    "nativeImport": true,
+    "sampledWorldPoses": 12,
+    "sharedAtlasBetweenInstances": true,
+    "singleDamagePerAttack": true,
+    "outOfRangeMiss": true,
+    "visualReview": "scratch/godot-impact.png",
+    "existingRegressionSuite": "passed",
+    "renderBenchmark": "reports/godot-render-benchmark.json"
+  }
+}

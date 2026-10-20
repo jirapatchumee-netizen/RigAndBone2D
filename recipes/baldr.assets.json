@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "source": "../spriters-resource/Mobile - Fire Emblem_ Heroes - Map Characters_ Heroes - Baldr.png",
+  "parts": [
+    {
+      "id": "head",
+      "rect": [
+        16,
+        32,
+        112,
+        104
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "chest",
+      "rect": [
+        416,
+        8,
+        472,
+        56
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "waist",
+      "rect": [
+        424,
+        80,
+        472,
+        120
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "upper_arm",
+      "rect": [
+        16,
+        144,
+        48,
+        192
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "forearm",
+      "rect": [
+        80,
+        144,
+        112,
+        192
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "thigh",
+      "rect": [
+        272,
+        144,
+        304,
+        200
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "shin",
+      "rect": [
+        336,
+        144,
+        368,
+        192
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "hand",
+      "rect": [
+        16,
+        240,
+        48,
+        280
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "shoulder",
+      "rect": [
+        232,
+        288,
+        272,
+        344
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "wing",
+      "rect": [
+        320,
+        216,
+        352,
+        320
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "wing_base",
+      "rect": [
+        416,
+        280,
+        512,
+        328
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "cape",
+      "rect": [
+        528,
+        0,
+        664,
+        96
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "halo",
+      "rect": [
+        264,
+        384,
+        376,
+        508
+      ],
+      "isolate": "alpha_bounds"
+    },
+    {
+      "id": "wing_mirrored",
+      "derivedFrom": "wing",
+      "mirrorX": true,
+      "isolate": "none"
+    },
+    {
+      "id": "wing_base_mirrored",
+      "derivedFrom": "wing_base",
+      "mirrorX": true,
+      "isolate": "none"
+    },
+    {
+      "id": "root",
+      "transparent": true
+    }
+  ]
+}

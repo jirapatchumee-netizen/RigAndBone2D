@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "bones": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "angle": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "color": {
+            "items": {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            "maxItems": 3,
+            "minItems": 3,
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,63}$",
+            "type": "string"
+          },
+          "image": {
+            "minLength": 1,
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "imageOffsetX": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "imageOffsetY": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "layer": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "length": {
+            "exclusiveMinimum": 0,
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "parent": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pivotX": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "pivotY": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "visible": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "width": {
+            "exclusiveMinimum": 0,
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "x": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "y": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id"
+        ],
+        "type": "object"
+      },
+      "maxItems": 512,
+      "minItems": 1,
+      "type": "array"
+    },
+    "duration": {
+      "exclusiveMinimum": 0,
+      "maximum": 120,
+      "type": "number"
+    },
+    "frames": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "pose": {
+            "additionalProperties": {
+              "type": "number"
+            },
+            "type": "object"
+          },
+          "time": {
+            "minimum": 0,
+            "type": "number"
+          }
+        },
+        "required": [
+          "time",
+          "pose"
+        ],
+        "type": "object"
+      },
+      "maxItems": 10000,
+      "type": "array"
+    },
+    "name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schemaVersion": {
+      "const": 1
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "duration",
+    "bones",
+    "frames"
+  ],
+  "title": "RigAndBone2D recipe v1",
+  "type": "object"
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "scale": 0.36,
+  "origin": [
+    350,
+    440
+  ],
+  "parts": {
+    "hat": {
+      "file": "char_farmer_part_hat_v01.png",
+      "height": 140.4,
+      "pivotX": 0.5573248407643312,
+      "pivotY": 0.4358974358974359,
+      "worldX": 0.0,
+      "worldY": -97.2,
+      "parent": "head",
+      "layer": 50,
+      "sourceBox": [
+        0,
+        0,
+        628,
+        390
+      ]
+    },
+    "torso": {
+      "file": "char_farmer_part_torso_v01.png",
+      "height": 95.75999999999999,
+      "pivotX": 0.49321266968325794,
+      "pivotY": 0.7781954887218046,
+      "worldX": 1.7999999999999998,
+      "worldY": 68.39999999999999,
+      "parent": "pelvis",
+      "layer": 20,
+      "sourceBox": [
+        246,
+        423,
+        467,
+        689
+      ]
+    },
+    "pelvis": {
+      "file": "char_farmer_part_pelvis_v01.png",
+      "height": 36.72,
+      "pivotX": 0.5,
+      "pivotY": 0.37254901960784315,
+      "worldX": 1.7999999999999998,
+      "worldY": 72.36,
+      "parent": "root",
+      "layer": 18,
+      "sourceBox": [
+        238,
+        603,
+        472,
+        705
+      ]
+    },
+    "arm_r": {
+      "file": "char_farmer_part_arm_r_v01.png",
+      "height": 99.36,
+      "pivotX": 0.7976878612716763,
+      "pivotY": 0.19202898550724637,
+      "worldX": -30.599999999999998,
+      "worldY": 17.28,
+      "parent": "torso",
+      "layer": 17,
+      "sourceBox": [
+        127,
+        435,
+        300,
+        711
+      ]
+    },
+    "arm_l": {
+      "file": "char_farmer_part_arm_l_v01.png",
+      "height": 81.72,
+      "pivotX": 0.2251655629139073,
+      "pivotY": 0.2026431718061674,
+      "worldX": 36.36,
+      "worldY": 16.2,
+      "parent": "torso",
+      "layer": 19,
+      "sourceBox": [
+        417,
+        439,
+        568,
+        666
+      ]
+    },
+    "leg_r": {
+      "file": "char_farmer_part_leg_r_v01.png",
+      "height": 96.84,
+      "pivotX": 0.642512077294686,
+      "pivotY": 0.11152416356877323,
+      "worldX": -18.72,
+      "worldY": 72.72,
+      "parent": "pelvis",
+      "layer": 9,
+      "sourceBox": [
+        165,
+        612,
+        372,
+        881
+      ]
+    },
+    "leg_l": {
+      "file": "char_farmer_part_leg_l_v01.png",
+      "height": 89.28,
+      "pivotX": 0.2849740932642487,
+      "pivotY": 0.09274193548387097,
+      "worldX": 21.599999999999998,
+      "worldY": 71.64,
+      "parent": "pelvis",
+      "layer": 10,
+      "sourceBox": [
+        355,
+        616,
+        548,
+        864
+      ]
+    },
+    "head": {
+      "file": "char_farmer_head_happy_v01.png",
+      "height": 146.0952,
+      "pivotX": 0.5455386037910309,
+      "pivotY": 0.9733379330737766,
+      "worldX": 0.0,
+      "worldY": -6.4799999999999995,
+      "parent": "torso",
+      "layer": 40
+    }
+  }
+}

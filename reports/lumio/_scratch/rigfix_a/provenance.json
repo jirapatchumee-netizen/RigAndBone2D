@@ -1,0 +1,12 @@
+{
+  "task": "RIG-FARMER-FIX-001",
+  "method": "approved F1 pixel masks; sampled hidden shoulder overlap; single rigid limbs; largest-component alpha cleanup",
+  "sourceSHA256": {
+    "char_farmer_head_happy_v01.png": "9f919f492a267e55201193a733d2875639f507db97324b64b7362ab23a1e350f",
+    "char_farmer_hero_v01.png": "fea15350c2b8522c938c58bc80523206dd37636b6e5ed2979417f5350bb391cb",
+    "char_farmer_head_surprised_v01.png": "1c4ed21cb69cd967ccdd1f16abf2752c2bcfd3aa7d28d247a0c363fb226fc413",
+    "char_farmer_head_blink_v01.png": "58e75d6ae3404b26f7e2598af3d77ed32417397746c3c93da991bebacdbb2317",
+    "char_farmer_head_talk_v01.png": "681961ae91703a902918998538dd85928e4696cd582c449149173df6a4fee44c"
+  },
+  "script": "scripts/lumio/prepare_farmer_fix.py"
+}

@@ -1,0 +1,10 @@
+ts	phase	decision	why	evidence	result
+2026-10-20T01:20:00+07:00	ground	Use transparent source and 16 detached parts	The left assembled figure is a reference and must not enter the rig	../../recipes/chibi/parts.assets.json	16 parts extracted
+2026-10-20T01:23:00+07:00	design	Keep embedded artwork and add replace_image	Preserve existing project format and renderer while replacing one slot	../../Sources/RigAndBone2D/ProjectCommands.swift	implemented
+2026-10-20T01:25:00+07:00	assets	Separate wrists at y674 in second extraction	First crop included neighboring hand pixels	../../examples/chibi-20261020/parts-v2/asset-report.json	prototype wrist cut still needs art cleanup
+2026-10-20T01:27:00+07:00	verification	Use native render and persisted JSON equality for replacement	Compilation alone cannot prove rig preservation	swap-proof.json	Only hand-front image changed
+2026-10-20T01:28:00+07:00	verification	Retain joint-review status despite clean structural report	Bounds and loop checks cannot judge joint artwork	preview/quality-report.json	No clipping or empty frames; art cleanup remains
+2026-10-19T18:31:58.978434+00:00	audit	Earlier row timestamps are approximate; this row records the audit time	The manually entered minute values were not tool-recorded event times	decisions.tsv	supersedes timestamps of preceding rows
+2026-10-19T18:31:58.978434+00:00	verification	Rename motion proof field and record comparison inputs	Reviewer interpreted ambiguous field as swap comparison	swap-proof.json	rest versus animated frame inputs now explicit
+2026-10-19T18:31:58.978434+00:00	ui	Use accessibility path readback after clipboard navigation failed	First picker attempt selected wrong file and was rejected	gui-proof.json	GUI saved exactly target image change
+2026-10-19T18:31:58.978434+00:00	audit	Independent review found no replacement code defect	Review checked persistence and render boundaries	../../tests/asset_replacement.py	artwork readiness remains limited

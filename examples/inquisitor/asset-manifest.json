@@ -1,0 +1,321 @@
+{
+  "source": "spriters-resource/825256925_1638955110962641_9009267157229036913_n.png",
+  "sourceSHA256": "836a7dc0d3cf8733e8f3ecafa943a38ddec194816f733f30fca9fc6d3da4194a",
+  "parts": {
+    "head_determined": {
+      "rectangle": [
+        1450,
+        56,
+        1896,
+        400
+      ],
+      "alphaBounds": [
+        6,
+        7,
+        433,
+        343
+      ],
+      "size": [
+        427,
+        336
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "head_shouting": {
+      "rectangle": [
+        495,
+        56,
+        945,
+        400
+      ],
+      "alphaBounds": [
+        10,
+        7,
+        438,
+        343
+      ],
+      "size": [
+        428,
+        336
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "body": {
+      "rectangle": [
+        60,
+        442,
+        440,
+        718
+      ],
+      "alphaBounds": [
+        7,
+        3,
+        371,
+        275
+      ],
+      "size": [
+        364,
+        272
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "coat": {
+      "rectangle": [
+        477,
+        440,
+        920,
+        734
+      ],
+      "alphaBounds": [
+        3,
+        5,
+        434,
+        291
+      ],
+      "size": [
+        431,
+        286
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "shoulder_left": {
+      "rectangle": [
+        959,
+        425,
+        1197,
+        687
+      ],
+      "alphaBounds": [
+        5,
+        8,
+        227,
+        252
+      ],
+      "size": [
+        222,
+        244
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "shoulder_right": {
+      "rectangle": [
+        1230,
+        425,
+        1468,
+        690
+      ],
+      "alphaBounds": [
+        9,
+        8,
+        231,
+        259
+      ],
+      "size": [
+        222,
+        251
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "arm_left": {
+      "rectangle": [
+        85,
+        745,
+        318,
+        973
+      ],
+      "alphaBounds": [
+        10,
+        5,
+        221,
+        228
+      ],
+      "size": [
+        211,
+        223
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "legs": {
+      "rectangle": [
+        500,
+        759,
+        808,
+        973
+      ],
+      "alphaBounds": [
+        12,
+        10,
+        299,
+        206
+      ],
+      "size": [
+        287,
+        196
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "boot_left": {
+      "rectangle": [
+        951,
+        777,
+        1158,
+        982
+      ],
+      "alphaBounds": [
+        9,
+        8,
+        202,
+        197
+      ],
+      "size": [
+        193,
+        189
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "boot_right": {
+      "rectangle": [
+        1163,
+        777,
+        1369,
+        982
+      ],
+      "alphaBounds": [
+        7,
+        7,
+        199,
+        197
+      ],
+      "size": [
+        192,
+        190
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "hand_fist": {
+      "rectangle": [
+        1565,
+        782,
+        1717,
+        963
+      ],
+      "alphaBounds": [
+        9,
+        11,
+        140,
+        173
+      ],
+      "size": [
+        131,
+        162
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "hand_grasp": {
+      "rectangle": [
+        1735,
+        744,
+        1883,
+        964
+      ],
+      "alphaBounds": [
+        10,
+        11,
+        138,
+        214
+      ],
+      "size": [
+        128,
+        203
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "mace_head": {
+      "rectangle": [
+        22,
+        996,
+        282,
+        1280
+      ],
+      "alphaBounds": [
+        9,
+        11,
+        260,
+        284
+      ],
+      "size": [
+        251,
+        273
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "chain": {
+      "rectangle": [
+        590,
+        1090,
+        866,
+        1236
+      ],
+      "alphaBounds": [
+        12,
+        20,
+        266,
+        144
+      ],
+      "size": [
+        254,
+        124
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "handle": {
+      "rectangle": [
+        888,
+        1063,
+        1380,
+        1280
+      ],
+      "alphaBounds": [
+        10,
+        10,
+        480,
+        214
+      ],
+      "size": [
+        470,
+        204
+      ],
+      "extraction": "largest connected alpha component"
+    },
+    "leg_left": {
+      "derivedFrom": "legs",
+      "rectangle": [
+        0,
+        0,
+        143,
+        196
+      ]
+    },
+    "leg_right": {
+      "derivedFrom": "legs",
+      "rectangle": [
+        143,
+        0,
+        287,
+        196
+      ]
+    },
+    "handle_mirrored": {
+      "derivedFrom": "handle",
+      "operation": "horizontal flip"
+    },
+    "mace_head_mirrored": {
+      "derivedFrom": "mace_head",
+      "operation": "horizontal flip"
+    },
+    "arm_right": {
+      "derivedFrom": "arm_left",
+      "operation": "horizontal flip"
+    }
+  }
+}

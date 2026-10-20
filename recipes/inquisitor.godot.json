@@ -1,0 +1,13 @@
+{
+  "schemaVersion":1,
+  "id":"inquisitor",
+  "exclude":["training-dummy-stand"],
+  "hidden":["root"],
+  "density":2,
+  "maxAtlas":1024,
+  "sockets":{"weapon_socket":"gripping-hand","weapon_tip":"morning-star-head"},
+  "clips":[
+    {"name":"idle","start":0,"end":0.01,"loop":false},
+    {"name":"attack","start":0,"end":3,"loop":false,"events":[{"name":"hit_start","time":1.1},{"name":"hit_end","time":1.5},{"name":"attack_finished","time":3}]}
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "head": {
+    "rectangle": [
+      16,
+      32,
+      112,
+      104
+    ],
+    "alphaBounds": [
+      6,
+      5,
+      94,
+      71
+    ],
+    "size": [
+      88,
+      66
+    ]
+  },
+  "chest": {
+    "rectangle": [
+      416,
+      8,
+      472,
+      56
+    ],
+    "alphaBounds": [
+      5,
+      6,
+      49,
+      42
+    ],
+    "size": [
+      44,
+      36
+    ]
+  },
+  "waist": {
+    "rectangle": [
+      424,
+      80,
+      472,
+      120
+    ],
+    "alphaBounds": [
+      6,
+      2,
+      44,
+      40
+    ],
+    "size": [
+      38,
+      38
+    ]
+  },
+  "upper_arm": {
+    "rectangle": [
+      16,
+      144,
+      48,
+      192
+    ],
+    "alphaBounds": [
+      7,
+      9,
+      25,
+      48
+    ],
+    "size": [
+      18,
+      39
+    ]
+  },
+  "forearm": {
+    "rectangle": [
+      80,
+      144,
+      112,
+      192
+    ],
+    "alphaBounds": [
+      6,
+      14,
+      26,
+      46
+    ],
+    "size": [
+      20,
+      32
+    ]
+  },
+  "thigh": {
+    "rectangle": [
+      272,
+      144,
+      304,
+      200
+    ],
+    "alphaBounds": [
+      4,
+      4,
+      28,
+      56
+    ],
+    "size": [
+      24,
+      52
+    ]
+  },
+  "shin": {
+    "rectangle": [
+      336,
+      144,
+      368,
+      192
+    ],
+    "alphaBounds": [
+      5,
+      12,
+      29,
+      48
+    ],
+    "size": [
+      24,
+      36
+    ]
+  },
+  "hand": {
+    "rectangle": [
+      16,
+      240,
+      48,
+      280
+    ],
+    "alphaBounds": [
+      5,
+      6,
+      28,
+      28
+    ],
+    "size": [
+      23,
+      22
+    ]
+  },
+  "shoulder": {
+    "rectangle": [
+      232,
+      288,
+      272,
+      344
+    ],
+    "alphaBounds": [
+      0,
+      7,
+      33,
+      56
+    ],
+    "size": [
+      33,
+      49
+    ]
+  },
+  "wing": {
+    "rectangle": [
+      320,
+      216,
+      352,
+      320
+    ],
+    "alphaBounds": [
+      6,
+      13,
+      32,
+      99
+    ],
+    "size": [
+      26,
+      86
+    ]
+  },
+  "wing_base": {
+    "rectangle": [
+      416,
+      280,
+      512,
+      328
+    ],
+    "alphaBounds": [
+      6,
+      4,
+      90,
+      48
+    ],
+    "size": [
+      84,
+      44
+    ]
+  },
+  "cape": {
+    "rectangle": [
+      528,
+      0,
+      664,
+      96
+    ],
+    "alphaBounds": [
+      1,
+      4,
+      121,
+      89
+    ],
+    "size": [
+      120,
+      85
+    ]
+  },
+  "halo": {
+    "rectangle": [
+      264,
+      384,
+      376,
+      508
+    ],
+    "alphaBounds": [
+      0,
+      5,
+      112,
+      123
+    ],
+    "size": [
+      112,
+      118
+    ]
+  },
+  "wing_mirrored": {
+    "derivedFrom": "wing",
+    "operation": "horizontal flip"
+  },
+  "wing_base_mirrored": {
+    "derivedFrom": "wing_base",
+    "operation": "horizontal flip"
+  }
+}

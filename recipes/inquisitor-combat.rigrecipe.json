@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "name": "inquisitor-combat",
+  "duration": 3,
+  "bones": [
+    {
+      "id": "root",
+      "name": "Root",
+      "parent": null,
+      "x": -25,
+      "y": 10,
+      "length": 1,
+      "angle": 0,
+      "layer": -100,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "image": "../examples/inquisitor/assets/root.png"
+    },
+    {
+      "id": "torso",
+      "name": "Torso",
+      "parent": "root",
+      "x": 0,
+      "y": -30,
+      "length": 56,
+      "angle": 0,
+      "layer": 6,
+      "pivotX": 0.5,
+      "pivotY": 0.18,
+      "image": "../examples/inquisitor/assets/body.png"
+    },
+    {
+      "id": "determined-head",
+      "name": "Determined head",
+      "parent": "torso",
+      "x": 0,
+      "y": -9,
+      "length": 84,
+      "angle": 0,
+      "layer": 20,
+      "pivotX": 0.5,
+      "pivotY": 0.92,
+      "image": "../examples/inquisitor/assets/head_determined.png"
+    },
+    {
+      "id": "back-arm",
+      "name": "Back arm",
+      "parent": "torso",
+      "x": -23,
+      "y": 10,
+      "length": 48,
+      "angle": 10,
+      "layer": 4,
+      "pivotX": 0.8,
+      "pivotY": 0.15,
+      "image": "../examples/inquisitor/assets/arm_left.png"
+    },
+    {
+      "id": "guard-fist",
+      "name": "Guard fist",
+      "parent": "back-arm",
+      "x": -24,
+      "y": 32,
+      "length": 23,
+      "angle": 0,
+      "layer": 10,
+      "pivotX": 0.5,
+      "pivotY": 0.75,
+      "image": "../examples/inquisitor/assets/hand_fist.png"
+    },
+    {
+      "id": "weapon-arm",
+      "name": "Weapon arm",
+      "parent": "torso",
+      "x": 23,
+      "y": 10,
+      "length": 48,
+      "angle": -45,
+      "layer": 9,
+      "pivotX": 0.2,
+      "pivotY": 0.15,
+      "image": "../examples/inquisitor/assets/arm_right.png"
+    },
+    {
+      "id": "gripping-hand",
+      "name": "Gripping hand",
+      "parent": "weapon-arm",
+      "x": 24,
+      "y": 32,
+      "length": 24,
+      "angle": 35,
+      "layer": 13,
+      "pivotX": 0.5,
+      "pivotY": 0.68,
+      "image": "../examples/inquisitor/assets/hand_grasp.png"
+    },
+    {
+      "id": "morning-star-handle",
+      "name": "Morning Star handle",
+      "parent": "gripping-hand",
+      "x": 0,
+      "y": -7,
+      "length": 40,
+      "angle": -5,
+      "layer": 11,
+      "pivotX": 0.21,
+      "pivotY": 0.35,
+      "image": "../examples/inquisitor/assets/handle_mirrored.png"
+    },
+    {
+      "id": "back-thigh",
+      "name": "Back thigh",
+      "parent": "root",
+      "x": -12,
+      "y": 10,
+      "length": 35,
+      "angle": 9,
+      "layer": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.04,
+      "image": "../examples/inquisitor/assets/leg_left.png"
+    },
+    {
+      "id": "back-boot",
+      "name": "Back boot",
+      "parent": "back-thigh",
+      "x": 0,
+      "y": 27,
+      "length": 31,
+      "angle": -9,
+      "layer": 5,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/inquisitor/assets/boot_left.png"
+    },
+    {
+      "id": "front-thigh",
+      "name": "Front thigh",
+      "parent": "root",
+      "x": 12,
+      "y": 10,
+      "length": 35,
+      "angle": -9,
+      "layer": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.04,
+      "image": "../examples/inquisitor/assets/leg_right.png"
+    },
+    {
+      "id": "front-boot",
+      "name": "Front boot",
+      "parent": "front-thigh",
+      "x": 0,
+      "y": 27,
+      "length": 31,
+      "angle": 9,
+      "layer": 7,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/inquisitor/assets/boot_right.png"
+    },
+    {
+      "id": "chain",
+      "name": "Chain",
+      "parent": "morning-star-handle",
+      "x": 71,
+      "y": -1,
+      "length": 17,
+      "angle": 0,
+      "layer": 12,
+      "pivotX": 0.08,
+      "pivotY": 0.85,
+      "image": "../examples/inquisitor/assets/chain.png"
+    },
+    {
+      "id": "morning-star-head",
+      "name": "Morning Star head",
+      "parent": "chain",
+      "x": 30,
+      "y": -11,
+      "length": 39,
+      "angle": 0,
+      "layer": 12,
+      "pivotX": 0.1,
+      "pivotY": 0.52,
+      "image": "../examples/inquisitor/assets/mace_head_mirrored.png"
+    },
+    {
+      "id": "coat-tails",
+      "name": "Coat tails",
+      "parent": "torso",
+      "x": 0,
+      "y": 29,
+      "length": 47,
+      "angle": 0,
+      "layer": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.12,
+      "image": "../examples/inquisitor/assets/coat.png"
+    },
+    {
+      "id": "back-shoulder-armor",
+      "name": "Back shoulder armor",
+      "parent": "back-arm",
+      "x": 0,
+      "y": 0,
+      "length": 36,
+      "angle": -5,
+      "layer": 8,
+      "pivotX": 0.75,
+      "pivotY": 0.2,
+      "image": "../examples/inquisitor/assets/shoulder_left.png"
+    },
+    {
+      "id": "front-shoulder-armor",
+      "name": "Front shoulder armor",
+      "parent": "weapon-arm",
+      "x": 0,
+      "y": 0,
+      "length": 36,
+      "angle": 5,
+      "layer": 14,
+      "pivotX": 0.25,
+      "pivotY": 0.2,
+      "image": "../examples/inquisitor/assets/shoulder_right.png"
+    },
+    {
+      "id": "training-dummy-stand",
+      "name": "Training dummy stand",
+      "parent": null,
+      "x": 144,
+      "y": 69,
+      "length": 60,
+      "angle": 180,
+      "layer": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "width": 8,
+      "color": [
+        0.65,
+        0.47,
+        0.28
+      ]
+    },
+    {
+      "id": "training-dummy-body",
+      "name": "Training dummy body",
+      "parent": "training-dummy-stand",
+      "x": 0,
+      "y": 42,
+      "length": 32,
+      "angle": 0,
+      "layer": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "width": 32,
+      "color": [
+        0.72,
+        0.29,
+        0.22
+      ]
+    },
+    {
+      "id": "training-dummy-head",
+      "name": "Training dummy head",
+      "parent": "training-dummy-body",
+      "x": 0,
+      "y": 40,
+      "length": 20,
+      "angle": 0,
+      "layer": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "width": 24,
+      "color": [
+        0.65,
+        0.47,
+        0.28
+      ]
+    },
+    {
+      "id": "training-dummy-crossbar",
+      "name": "Training dummy crossbar",
+      "parent": "training-dummy-body",
+      "x": 23,
+      "y": 20,
+      "length": 46,
+      "angle": 90,
+      "layer": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "width": 8,
+      "color": [
+        0.65,
+        0.47,
+        0.28
+      ]
+    },
+    {
+      "id": "training-dummy-base",
+      "name": "Training dummy base",
+      "parent": "training-dummy-stand",
+      "x": 23,
+      "y": 0,
+      "length": 46,
+      "angle": 90,
+      "layer": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.0,
+      "width": 8,
+      "color": [
+        0.65,
+        0.47,
+        0.28
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "label": "guard",
+      "pose": {}
+    },
+    {
+      "time": 0.35,
+      "label": "guard breathe",
+      "pose": {
+        "torso": -2,
+        "determined-head": 2,
+        "coat-tails": 3,
+        "chain": -6
+      }
+    },
+    {
+      "time": 0.7,
+      "label": "wind-up",
+      "pose": {
+        "torso": -7,
+        "determined-head": 5,
+        "back-arm": 28,
+        "weapon-arm": -115,
+        "gripping-hand": 30,
+        "morning-star-handle": 12,
+        "chain": 22,
+        "morning-star-head": -18,
+        "back-thigh": 16,
+        "back-boot": -16,
+        "front-thigh": -18,
+        "front-boot": 18,
+        "coat-tails": 10
+      }
+    },
+    {
+      "time": 0.95,
+      "label": "weapon raised",
+      "pose": {
+        "torso": -9,
+        "determined-head": 6,
+        "back-arm": 35,
+        "weapon-arm": -145,
+        "gripping-hand": 20,
+        "morning-star-handle": 25,
+        "chain": 10,
+        "morning-star-head": -8,
+        "back-thigh": 18,
+        "back-boot": -18,
+        "front-thigh": -22,
+        "front-boot": 22,
+        "coat-tails": 14
+      }
+    },
+    {
+      "time": 1,
+      "label": "release",
+      "pose": {
+        "torso": -5,
+        "determined-head": 3,
+        "back-arm": 26,
+        "weapon-arm": -130,
+        "gripping-hand": 18,
+        "morning-star-handle": 18,
+        "chain": -10,
+        "morning-star-head": -16,
+        "back-thigh": 10,
+        "back-boot": -10,
+        "front-thigh": -22,
+        "front-boot": 22,
+        "coat-tails": 8
+      }
+    },
+    {
+      "time": 1.1,
+      "label": "strike start",
+      "pose": {
+        "torso": 4,
+        "determined-head": -5,
+        "back-arm": 12,
+        "weapon-arm": -95,
+        "gripping-hand": 15,
+        "morning-star-handle": 5,
+        "chain": -35,
+        "morning-star-head": -25,
+        "back-thigh": 0,
+        "back-boot": 0,
+        "front-thigh": -22,
+        "front-boot": 22,
+        "coat-tails": -4
+      }
+    },
+    {
+      "time": 1.3,
+      "label": "impact",
+      "pose": {
+        "torso": 9,
+        "determined-head": -7,
+        "back-arm": -20,
+        "weapon-arm": -20,
+        "gripping-hand": 12,
+        "morning-star-handle": 7,
+        "chain": 0,
+        "morning-star-head": 10,
+        "training-dummy-body": 8,
+        "back-thigh": -10,
+        "back-boot": 10,
+        "front-thigh": -22,
+        "front-boot": 22,
+        "coat-tails": -12
+      }
+    },
+    {
+      "time": 1.5,
+      "label": "follow-through",
+      "pose": {
+        "torso": 12,
+        "determined-head": -8,
+        "back-arm": -30,
+        "weapon-arm": 20,
+        "gripping-hand": -15,
+        "morning-star-handle": -15,
+        "chain": 28,
+        "morning-star-head": 22,
+        "training-dummy-body": 18,
+        "back-thigh": -12,
+        "back-boot": 12,
+        "front-thigh": -18,
+        "front-boot": 18,
+        "coat-tails": -16
+      }
+    },
+    {
+      "time": 1.85,
+      "label": "recoil",
+      "pose": {
+        "torso": 4,
+        "determined-head": -3,
+        "back-arm": 0,
+        "weapon-arm": -10,
+        "gripping-hand": 20,
+        "morning-star-handle": -10,
+        "chain": 32,
+        "morning-star-head": -15,
+        "training-dummy-body": -6,
+        "coat-tails": -6
+      }
+    },
+    {
+      "time": 2,
+      "label": "recover start",
+      "pose": {
+        "torso": 0,
+        "determined-head": 0,
+        "weapon-arm": -30,
+        "gripping-hand": 28,
+        "morning-star-handle": -5,
+        "chain": 10,
+        "morning-star-head": 0,
+        "training-dummy-body": -3,
+        "coat-tails": 0
+      }
+    },
+    {
+      "time": 2.2,
+      "label": "recover",
+      "pose": {
+        "torso": -3,
+        "determined-head": 3,
+        "weapon-arm": -55,
+        "gripping-hand": 40,
+        "morning-star-handle": 0,
+        "chain": -20,
+        "morning-star-head": 10,
+        "training-dummy-body": 4,
+        "coat-tails": 8
+      }
+    },
+    {
+      "time": 2.6,
+      "label": "guard settle",
+      "pose": {
+        "torso": 1,
+        "determined-head": -1,
+        "chain": 6,
+        "morning-star-head": -5,
+        "coat-tails": -3
+      }
+    },
+    {
+      "time": 3,
+      "label": "guard",
+      "pose": {}
+    }
+  ]
+}

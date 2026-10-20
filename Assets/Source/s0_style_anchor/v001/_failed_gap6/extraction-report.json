@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "source": "Assets/Inbox/S0-style-anchor/master.png",
+  "sourceSHA256": "82694e55699e2b381c99f37776c6215155bd4958c5783144c3b2f61625a30b3d",
+  "sheetSize": [
+    1536,
+    1024
+  ],
+  "alphaFloor": 48,
+  "objects": {
+    "crop_carrot_stage3_soft3d": {
+      "region": [
+        2,
+        2,
+        34,
+        49
+      ],
+      "blobCount": 0,
+      "error": "missing: no artwork inside region"
+    },
+    "env_tree_apple_a_v01": {
+      "region": [
+        34,
+        2,
+        66,
+        49
+      ],
+      "blobCount": 1,
+      "size": [
+        953,
+        440
+      ],
+      "faintAlphaRatioBefore": 0.0587,
+      "faintAlphaRatioAfter": 0.0054,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "prop_fence_wood_a_v01": {
+      "region": [
+        66,
+        2,
+        98,
+        49
+      ],
+      "blobCount": 1,
+      "size": [
+        418,
+        376
+      ],
+      "faintAlphaRatioBefore": 0.0898,
+      "faintAlphaRatioAfter": 0.0091,
+      "touchesRegionBorder": false
+    },
+    "prop_fence_wood_b_v01": {
+      "region": [
+        2,
+        51,
+        34,
+        98
+      ],
+      "blobCount": 1,
+      "size": [
+        446,
+        374
+      ],
+      "faintAlphaRatioBefore": 0.0966,
+      "faintAlphaRatioAfter": 0.0077,
+      "touchesRegionBorder": false
+    },
+    "prop_crate_tomato_v01": {
+      "region": [
+        34,
+        51,
+        66,
+        98
+      ],
+      "blobCount": 1,
+      "size": [
+        441,
+        390
+      ],
+      "faintAlphaRatioBefore": 0.0389,
+      "faintAlphaRatioAfter": 0.0037,
+      "touchesRegionBorder": false
+    },
+    "env_flowers_daisy_a_v01": {
+      "region": [
+        66,
+        51,
+        98,
+        98
+      ],
+      "blobCount": 1,
+      "size": [
+        416,
+        395
+      ],
+      "faintAlphaRatioBefore": 0.0825,
+      "faintAlphaRatioAfter": 0.0069,
+      "touchesRegionBorder": false
+    }
+  },
+  "unassignedBlobs": [],
+  "ok": false
+}

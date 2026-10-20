@@ -1,0 +1,16 @@
+{
+ "id": "char_farmer", "pack": "CHR-F3-farmer-lite",
+ "ref_image": "Assets/Source/chr_f1_farmer/v001/parts/char_farmer_hero_v01.png",
+ "units_per_px": 0.26, "origin_ref": [345, 640], "oy": 40,
+ "_comment": "Measured on the 636x881 hero. Idle-only farmer: 4 rigid pieces (hat, body with legs baked, two arms). Heads/faces come from CHR-F1 (hatless) and are NOT regenerated.",
+ "parts": [
+  {"id": "body", "parent": "root", "bbox": [185, 425, 545, 872], "expand": [0, 12, 0, 0], "pivot": [345, 640], "layer": 20,
+   "note": "torso + overalls + both legs + boots as ONE piece, WITHOUT arms (shoulder sockets hidden under the sleeve caps), neck stub at top centre only"},
+  {"id": "arm_r", "parent": "body", "bbox": [118, 488, 272, 705], "expand": [0, 34, 10, 0], "pivot": [245, 520], "layer": 17,
+   "note": "viewer's left arm: short sleeve + bare arm + relaxed hand, hanging straight, top end rounded and painted 15% longer to tuck under the shoulder"},
+  {"id": "arm_l", "parent": "body", "bbox": [465, 478, 580, 685], "expand": [10, 34, 0, 0], "pivot": [482, 505], "layer": 27,
+   "note": "viewer's right arm, same rules, mirror-consistent with the other arm"},
+  {"id": "hat", "parent": "head", "bbox": [0, 0, 626, 378], "expand": [0, 0, 0, 0], "pivot": [310, 300], "layer": 50,
+   "note": "straw hat seen at eye level from the front, axis vertical, brim horizontal, nothing inside, no underside"}
+ ]
+}

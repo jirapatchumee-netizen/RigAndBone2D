@@ -1,0 +1,6 @@
+ts	phase	decision	why	evidence	result
+2026-10-19T19:03:02.999223+00:00	undo	Use native history snapshots without file revision or URL	Undo must preserve current disk conflict receipt	../../Sources/RigAndBone2D/Editor.swift	native harness passed
+2026-10-19T19:03:02.999365+00:00	fix	Set undo action name inside explicit undo grouping	Direct AppKit harness exposed exception after group end	../../tests/undo_history.swift	fixed and rebuilt
+2026-10-19T19:03:02.999369+00:00	simplify	Remove Layers/Bones modes after user correction	User wants one list only	../../Sources/RigAndBone2D/Editor.swift	one PARTS list
+2026-10-19T19:03:02.999371+00:00	drag	Convert row drops to insertion drops	Dropping on a name must reorder rather than reject the on-row target	chibi-check/gui-proof.json	drag to torso passed
+2026-10-19T19:03:02.999372+00:00	verify	Read actual saved Chibi JSON after keyboard undo and redo	List readback alone does not prove full state or save history	chibi-check/gui-proof.json	exact project snapshots passed

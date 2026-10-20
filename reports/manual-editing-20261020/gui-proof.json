@@ -1,0 +1,15 @@
+{
+  "dragScreenPixels": [
+    36,
+    18
+  ],
+  "zoom": 1.8,
+  "savedLocalImageOffset": [
+    20,
+    10
+  ],
+  "changedBone": "torso",
+  "onlyImageOffsetsChanged": true,
+  "worldBonesUnchanged": true,
+  "framesUnchanged": true
+}

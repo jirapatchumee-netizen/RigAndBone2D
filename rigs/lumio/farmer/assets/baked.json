@@ -1,0 +1,26 @@
+{
+ "arm_r": {
+  "image": "../../rigs/lumio/farmer/assets/baked_arm_r.png",
+  "height": 104.0,
+  "pivotX": 0.5029,
+  "pivotY": 0.0577
+ },
+ "arm_l": {
+  "image": "../../rigs/lumio/farmer/assets/baked_arm_l.png",
+  "height": 104.0,
+  "pivotX": 0.5027,
+  "pivotY": 0.0577
+ },
+ "leg_r": {
+  "image": "../../rigs/lumio/farmer/assets/baked_leg_r.png",
+  "height": 93.67,
+  "pivotX": 0.5,
+  "pivotY": 0.0374
+ },
+ "leg_l": {
+  "image": "../../rigs/lumio/farmer/assets/baked_leg_l.png",
+  "height": 93.83,
+  "pivotX": 0.5,
+  "pivotY": 0.0373
+ }
+}

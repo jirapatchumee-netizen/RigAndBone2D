@@ -1,0 +1,9 @@
+{
+ "pack": "CHR-F1-farmer",
+ "version": "v001",
+ "sourceMaster": "Assets/Inbox/CHR-F1-farmer/master.png",
+ "sha256": "f847481c360b9634a92e1515710e50ccae518cf599a12308345b1744d01756e5",
+ "extractor": "scripts/lumio/extract_sheet.py --gap 1",
+ "note": "gap 2 merged hero with happy head (see _failed_gap2)",
+ "status": "awaiting owner design approval"
+}

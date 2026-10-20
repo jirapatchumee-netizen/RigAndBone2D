@@ -1,0 +1,25 @@
+{
+ "schemaVersion": 1,
+ "id": "char_farmer",
+ "licenseRecordID": "lumio-codex-generated-review-before-public-release",
+ "renderScale": 0.75,
+ "pixelsPerUnit": 1,
+ "fps": 15,
+ "maxAtlas": 2048,
+ "clips": [
+  {
+   "name": "idle",
+   "start": 0,
+   "end": 1,
+   "loop": true,
+   "events": []
+  },
+  {
+   "name": "walk",
+   "start": 1.0666666667,
+   "end": 1.8666666667,
+   "loop": true,
+   "events": []
+  }
+ ]
+}

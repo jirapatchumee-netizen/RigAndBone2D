@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "assetID": "s0_style_anchor",
+  "version": "v001",
+  "creationMethod": "Codex built-in image tool, transparent PNG, reference image attached (Art_Style_Soft_3D_Toy_Reference.png)",
+  "prompt": "../../Inbox/S0-style-anchor/generation-prompt.txt",
+  "master": "Assets/Inbox/S0-style-anchor/master.png",
+  "masterSHA256": "82694e55699e2b381c99f37776c6215155bd4958c5783144c3b2f61625a30b3d",
+  "extraction": {
+    "tool": "scripts/lumio/extract_sheet.py",
+    "alphaFloor": 48,
+    "gap": 2,
+    "report": "parts/extraction-report.json",
+    "failedFirstAttempt": "_failed_gap6 (gap 6 merged carrot plot with tree)"
+  },
+  "reviewStatus": "claude-first-pass-ok; awaiting owner style approval",
+  "reviewer": "Claude (advisory)",
+  "releaseRightsStatus": "review-before-public-release",
+  "createdAt": "2026-10-01"
+}

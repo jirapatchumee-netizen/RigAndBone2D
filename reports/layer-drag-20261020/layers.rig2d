@@ -1,0 +1,110 @@
+{
+  "bones" : [
+    {
+      "angle" : 0,
+      "color" : [
+        0.5,
+        0.7,
+        0.9
+      ],
+      "id" : "root",
+      "layer" : -20,
+      "length" : 1,
+      "name" : "root",
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "visible" : false,
+      "width" : 20,
+      "x" : 0,
+      "y" : 0
+    },
+    {
+      "angle" : 0,
+      "color" : [
+        0.5,
+        0.7,
+        0.9
+      ],
+      "id" : "back",
+      "image" : "iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM\/rhtAAAAWElEQVR4nM3OMQEAMAyAMIZ\/z52EniUK8gaGMImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOK8Dmw8jRwJOAnuSSwAAAABJRU5ErkJggg==",
+      "layer" : 1,
+      "length" : 40,
+      "name" : "back",
+      "parent" : 0,
+      "pivotX" : 0.5,
+      "pivotY" : 0.5,
+      "width" : 40,
+      "x" : -10,
+      "y" : -10
+    },
+    {
+      "angle" : 0,
+      "color" : [
+        0.5,
+        0.7,
+        0.9
+      ],
+      "id" : "front",
+      "image" : "iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM\/rhtAAAAWElEQVR4nM3OMQEAMAyAMIZ\/z52EniUK8mCGMImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOK8Dmw8hSQJOFehk2gAAAABJRU5ErkJggg==",
+      "layer" : 2,
+      "length" : 40,
+      "name" : "front",
+      "parent" : 1,
+      "pivotX" : 0.5,
+      "pivotY" : 0.5,
+      "width" : 40,
+      "x" : 10,
+      "y" : 10
+    },
+    {
+      "angle" : 0,
+      "color" : [
+        0.5,
+        0.7,
+        0.9
+      ],
+      "id" : "side",
+      "image" : "iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM\/rhtAAAAWElEQVR4nM3OMQEAMAyAMIZ\/z52EniUK8hiGMImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOImTOK8Dmw8iSAJOTgW0aQAAAABJRU5ErkJggg==",
+      "layer" : 2,
+      "length" : 40,
+      "name" : "side",
+      "parent" : 0,
+      "pivotX" : 0.5,
+      "pivotY" : 0.5,
+      "width" : 40,
+      "x" : 70,
+      "y" : 0
+    }
+  ],
+  "duration" : 1,
+  "frames" : [
+    {
+      "angles" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "time" : 0
+    },
+    {
+      "angles" : [
+        0,
+        25,
+        -10,
+        0
+      ],
+      "time" : 0.5
+    },
+    {
+      "angles" : [
+        0,
+        0,
+        0,
+        0
+      ],
+      "time" : 1
+    }
+  ],
+  "version" : 1
+}

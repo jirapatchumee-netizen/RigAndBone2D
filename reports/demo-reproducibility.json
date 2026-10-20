@@ -1,0 +1,22 @@
+[
+  {
+    "demo": "baldr",
+    "boneCount": 22,
+    "keyframeCount": 7,
+    "creationRequests": 1,
+    "matchingSampledPoses": 12,
+    "checkedPreviewFrames": 60,
+    "assetCount": 16,
+    "originalProjectUnchanged": true
+  },
+  {
+    "demo": "inquisitor-combat",
+    "boneCount": 22,
+    "keyframeCount": 13,
+    "creationRequests": 1,
+    "matchingSampledPoses": 12,
+    "checkedPreviewFrames": 60,
+    "assetCount": 21,
+    "originalProjectUnchanged": true
+  }
+]

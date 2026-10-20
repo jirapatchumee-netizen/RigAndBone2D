@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "name": "baldr",
+  "duration": 3,
+  "bones": [
+    {
+      "id": "root",
+      "name": "Root",
+      "parent": null,
+      "x": 0,
+      "y": 0,
+      "length": 1,
+      "angle": 0,
+      "layer": -100,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "image": "../examples/baldr/assets/root.png"
+    },
+    {
+      "id": "chest",
+      "name": "Chest",
+      "parent": "root",
+      "x": 0,
+      "y": -38,
+      "length": 36,
+      "angle": 0,
+      "layer": 5,
+      "pivotX": 0.5,
+      "pivotY": 0.18,
+      "image": "../examples/baldr/assets/chest.png"
+    },
+    {
+      "id": "head",
+      "name": "Head",
+      "parent": "chest",
+      "x": 0,
+      "y": -3,
+      "length": 66,
+      "angle": 0,
+      "layer": 20,
+      "pivotX": 0.5,
+      "pivotY": 0.95,
+      "image": "../examples/baldr/assets/head.png"
+    },
+    {
+      "id": "back-upper-arm",
+      "name": "Back upper arm",
+      "parent": "chest",
+      "x": -19,
+      "y": 6,
+      "length": 26,
+      "angle": 20,
+      "layer": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.12,
+      "image": "../examples/baldr/assets/upper_arm.png"
+    },
+    {
+      "id": "back-forearm",
+      "name": "Back forearm",
+      "parent": "back-upper-arm",
+      "x": 0,
+      "y": 21,
+      "length": 23,
+      "angle": -12,
+      "layer": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.15,
+      "image": "../examples/baldr/assets/forearm.png"
+    },
+    {
+      "id": "front-upper-arm",
+      "name": "Front upper arm",
+      "parent": "chest",
+      "x": 19,
+      "y": 6,
+      "length": 26,
+      "angle": -20,
+      "layer": 8,
+      "pivotX": 0.5,
+      "pivotY": 0.12,
+      "image": "../examples/baldr/assets/upper_arm.png"
+    },
+    {
+      "id": "front-forearm",
+      "name": "Front forearm",
+      "parent": "front-upper-arm",
+      "x": 0,
+      "y": 21,
+      "length": 23,
+      "angle": 12,
+      "layer": 9,
+      "pivotX": 0.5,
+      "pivotY": 0.15,
+      "image": "../examples/baldr/assets/forearm.png"
+    },
+    {
+      "id": "back-wing-l",
+      "name": "Back wing L",
+      "parent": "chest",
+      "x": -32,
+      "y": 0,
+      "length": 86,
+      "angle": -23,
+      "layer": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.95,
+      "image": "../examples/baldr/assets/wing.png"
+    },
+    {
+      "id": "back-thigh",
+      "name": "Back thigh",
+      "parent": "root",
+      "x": -10,
+      "y": 18,
+      "length": 35,
+      "angle": 7,
+      "layer": 2,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/baldr/assets/thigh.png"
+    },
+    {
+      "id": "back-shin",
+      "name": "Back shin",
+      "parent": "back-thigh",
+      "x": 0,
+      "y": 28,
+      "length": 28,
+      "angle": -4,
+      "layer": 3,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/baldr/assets/shin.png"
+    },
+    {
+      "id": "front-thigh",
+      "name": "Front thigh",
+      "parent": "root",
+      "x": 10,
+      "y": 18,
+      "length": 35,
+      "angle": -7,
+      "layer": 4,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/baldr/assets/thigh.png"
+    },
+    {
+      "id": "front-shin",
+      "name": "Front shin",
+      "parent": "front-thigh",
+      "x": 0,
+      "y": 28,
+      "length": 28,
+      "angle": 4,
+      "layer": 5,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/baldr/assets/shin.png"
+    },
+    {
+      "id": "waist",
+      "name": "Waist",
+      "parent": "chest",
+      "x": 0,
+      "y": 29,
+      "length": 35,
+      "angle": 0,
+      "layer": 7,
+      "pivotX": 0.5,
+      "pivotY": 0.07,
+      "image": "../examples/baldr/assets/waist.png"
+    },
+    {
+      "id": "cape",
+      "name": "Cape",
+      "parent": "chest",
+      "x": 0,
+      "y": 2,
+      "length": 78,
+      "angle": 0,
+      "layer": -2,
+      "pivotX": 0.5,
+      "pivotY": 0.08,
+      "image": "../examples/baldr/assets/cape.png"
+    },
+    {
+      "id": "back-wing-r",
+      "name": "Back wing R",
+      "parent": "chest",
+      "x": 32,
+      "y": 0,
+      "length": 86,
+      "angle": 23,
+      "layer": 0,
+      "pivotX": 0.5,
+      "pivotY": 0.95,
+      "image": "../examples/baldr/assets/wing_mirrored.png"
+    },
+    {
+      "id": "back-hand",
+      "name": "Back hand",
+      "parent": "back-forearm",
+      "x": 0,
+      "y": 18,
+      "length": 15,
+      "angle": 0,
+      "layer": 5,
+      "pivotX": 0.5,
+      "pivotY": 0.25,
+      "image": "../examples/baldr/assets/hand.png"
+    },
+    {
+      "id": "front-hand",
+      "name": "Front hand",
+      "parent": "front-forearm",
+      "x": 0,
+      "y": 18,
+      "length": 15,
+      "angle": 0,
+      "layer": 10,
+      "pivotX": 0.5,
+      "pivotY": 0.25,
+      "image": "../examples/baldr/assets/hand.png"
+    },
+    {
+      "id": "back-shoulder-armor",
+      "name": "Back shoulder armor",
+      "parent": "back-upper-arm",
+      "x": 0,
+      "y": 0,
+      "length": 29,
+      "angle": -8,
+      "layer": 6,
+      "pivotX": 0.5,
+      "pivotY": 0.1,
+      "image": "../examples/baldr/assets/shoulder.png"
+    },
+    {
+      "id": "front-shoulder-armor",
+      "name": "Front shoulder armor",
+      "parent": "front-upper-arm",
+      "x": 0,
+      "y": 0,
+      "length": 29,
+      "angle": 8,
+      "layer": 11,
+      "pivotX": 0.5,
+      "pivotY": 0.1,
+      "image": "../examples/baldr/assets/shoulder.png"
+    },
+    {
+      "id": "back-wing-base-l",
+      "name": "Back wing base L",
+      "parent": "chest",
+      "x": -26,
+      "y": 14,
+      "length": 30,
+      "angle": 0,
+      "layer": 1,
+      "pivotX": 0.85,
+      "pivotY": 0.65,
+      "image": "../examples/baldr/assets/wing_base.png"
+    },
+    {
+      "id": "back-wing-base-r",
+      "name": "Back wing base R",
+      "parent": "chest",
+      "x": 26,
+      "y": 14,
+      "length": 30,
+      "angle": 0,
+      "layer": 1,
+      "pivotX": 0.15,
+      "pivotY": 0.65,
+      "image": "../examples/baldr/assets/wing_base_mirrored.png"
+    },
+    {
+      "id": "halo",
+      "name": "Halo",
+      "parent": "chest",
+      "x": 0,
+      "y": -56,
+      "length": 52,
+      "angle": 0,
+      "layer": 1,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "image": "../examples/baldr/assets/halo.png"
+    }
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "label": "pose-0",
+      "pose": {}
+    },
+    {
+      "time": 0.5,
+      "label": "pose-0.5",
+      "pose": {
+        "chest": -1.5,
+        "head": 2,
+        "back-wing-l": -29,
+        "back-wing-r": 29,
+        "cape": 3
+      }
+    },
+    {
+      "time": 1,
+      "label": "pose-1",
+      "pose": {
+        "chest": 0,
+        "head": -2,
+        "back-wing-l": -18,
+        "back-wing-r": 18,
+        "cape": -3
+      }
+    },
+    {
+      "time": 1.5,
+      "label": "pose-1.5",
+      "pose": {
+        "front-upper-arm": -55,
+        "front-forearm": -40,
+        "front-hand": 12,
+        "head": -5,
+        "back-wing-l": -25,
+        "back-wing-r": 25
+      }
+    },
+    {
+      "time": 2,
+      "label": "pose-2",
+      "pose": {
+        "front-upper-arm": -85,
+        "front-forearm": -55,
+        "front-hand": 15,
+        "head": -7,
+        "back-wing-l": -30,
+        "back-wing-r": 30
+      }
+    },
+    {
+      "time": 2.5,
+      "label": "pose-2.5",
+      "pose": {
+        "front-upper-arm": -55,
+        "front-forearm": -40,
+        "head": -4,
+        "cape": 3
+      }
+    },
+    {
+      "time": 3,
+      "label": "pose-3",
+      "pose": {}
+    }
+  ]
+}

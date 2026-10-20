@@ -1,0 +1,181 @@
+{
+ "schemaVersion": 1,
+ "name": "lumio-farmer",
+ "duration": 1.8666666667,
+ "bones": [
+  {
+   "id": "root",
+   "name": "root",
+   "parent": null,
+   "x": 0,
+   "y": 0,
+   "length": 1,
+   "angle": 0,
+   "layer": -100,
+   "pivotX": 0.5,
+   "pivotY": 0.5,
+   "visible": false
+  },
+  {
+   "id": "pelvis",
+   "name": "pelvis",
+   "parent": "root",
+   "x": 1.8,
+   "y": 72.36,
+   "length": 36.72,
+   "angle": 0,
+   "layer": 18,
+   "pivotX": 0.5,
+   "pivotY": 0.37254901960784315,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_pelvis_v01.png"
+  },
+  {
+   "id": "torso",
+   "name": "torso",
+   "parent": "pelvis",
+   "x": 0.0,
+   "y": -3.96,
+   "length": 92.16,
+   "angle": 0,
+   "layer": 20,
+   "pivotX": 0.49321266968325794,
+   "pivotY": 0.76953125,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_torso_v01.png"
+  },
+  {
+   "id": "head",
+   "name": "head",
+   "parent": "torso",
+   "x": -1.8,
+   "y": -74.88,
+   "length": 146.0952,
+   "angle": 0,
+   "layer": 40,
+   "pivotX": 0.5455386037910309,
+   "pivotY": 0.9733379330737766,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_head_happy_v01.png"
+  },
+  {
+   "id": "hat",
+   "name": "hat",
+   "parent": "head",
+   "x": 0.0,
+   "y": -90.72,
+   "length": 138.96,
+   "angle": 0,
+   "layer": 50,
+   "pivotX": 0.5582137161084529,
+   "pivotY": 0.44041450777202074,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_hat_v01.png"
+  },
+  {
+   "id": "arm_r",
+   "name": "arm_r",
+   "parent": "torso",
+   "x": -32.4,
+   "y": -51.12,
+   "length": 90.36,
+   "angle": 0,
+   "layer": 17,
+   "pivotX": 0.7976878612716763,
+   "pivotY": 0.1752988047808765,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_arm_r_v01.png"
+  },
+  {
+   "id": "arm_l",
+   "name": "arm_l",
+   "parent": "torso",
+   "x": 34.56,
+   "y": -52.2,
+   "length": 81.72,
+   "angle": 0,
+   "layer": 19,
+   "pivotX": 0.2251655629139073,
+   "pivotY": 0.2026431718061674,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_arm_l_v01.png"
+  },
+  {
+   "id": "leg_r",
+   "name": "leg_r",
+   "parent": "pelvis",
+   "x": -20.52,
+   "y": 0.36,
+   "length": 96.84,
+   "angle": 0,
+   "layer": 9,
+   "pivotX": 0.642512077294686,
+   "pivotY": 0.11152416356877323,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_leg_r_v01.png"
+  },
+  {
+   "id": "leg_l",
+   "name": "leg_l",
+   "parent": "pelvis",
+   "x": 19.8,
+   "y": -0.72,
+   "length": 89.28,
+   "angle": 0,
+   "layer": 10,
+   "pivotX": 0.2849740932642487,
+   "pivotY": 0.09274193548387097,
+   "image": "../../Assets/Source/chr_farmer_rigfix/v001/parts/char_farmer_part_leg_l_v01.png"
+  }
+ ],
+ "frames": [
+  {
+   "time": 0,
+   "label": "idle bind",
+   "pose": {}
+  },
+  {
+   "time": 0.5,
+   "label": "idle breathe",
+   "pose": {
+    "torso": -1,
+    "head": 1,
+    "arm_r": 1,
+    "arm_l": -1
+   }
+  },
+  {
+   "time": 1,
+   "label": "idle bind",
+   "pose": {}
+  },
+  {
+   "time": 1.0666666667,
+   "label": "walk contact",
+   "pose": {}
+  },
+  {
+   "time": 1.2666666667,
+   "label": "walk swing A",
+   "pose": {
+    "arm_r": 30,
+    "arm_l": -30,
+    "leg_r": -25,
+    "leg_l": 25
+   }
+  },
+  {
+   "time": 1.4666666667,
+   "label": "walk passing",
+   "pose": {}
+  },
+  {
+   "time": 1.6666666667,
+   "label": "walk swing B",
+   "pose": {
+    "arm_r": -30,
+    "arm_l": 30,
+    "leg_r": 25,
+    "leg_l": -25
+   }
+  },
+  {
+   "time": 1.8666666667,
+   "label": "walk contact",
+   "pose": {}
+  }
+ ]
+}

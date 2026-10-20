@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "source": "Assets/Inbox/CHR-F1-farmer/master.png",
+  "sourceSHA256": "f847481c360b9634a92e1515710e50ccae518cf599a12308345b1744d01756e5",
+  "sheetSize": [
+    1536,
+    1024
+  ],
+  "alphaFloor": 48,
+  "objects": {
+    "char_farmer_hero_v01": {
+      "region": [
+        1,
+        2,
+        42,
+        98
+      ],
+      "blobCount": 1,
+      "size": [
+        1040,
+        881
+      ],
+      "faintAlphaRatioBefore": 0.0536,
+      "faintAlphaRatioAfter": 0.0041,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_head_happy_v01": {
+      "region": [
+        42,
+        2,
+        71,
+        50
+      ],
+      "blobCount": 0,
+      "error": "missing: no artwork inside region"
+    },
+    "char_farmer_head_blink_v01": {
+      "region": [
+        71,
+        2,
+        99,
+        50
+      ],
+      "blobCount": 1,
+      "size": [
+        418,
+        394
+      ],
+      "faintAlphaRatioBefore": 0.0546,
+      "faintAlphaRatioAfter": 0.004,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_head_talk_v01": {
+      "region": [
+        42,
+        50,
+        71,
+        98
+      ],
+      "blobCount": 1,
+      "size": [
+        419,
+        391
+      ],
+      "faintAlphaRatioBefore": 0.0513,
+      "faintAlphaRatioAfter": 0.0043,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_head_surprised_v01": {
+      "region": [
+        71,
+        50,
+        99,
+        98
+      ],
+      "blobCount": 1,
+      "size": [
+        416,
+        392
+      ],
+      "faintAlphaRatioBefore": 0.0488,
+      "faintAlphaRatioAfter": 0.0045,
+      "touchesRegionBorder": false
+    }
+  },
+  "unassignedBlobs": [],
+  "ok": false
+}

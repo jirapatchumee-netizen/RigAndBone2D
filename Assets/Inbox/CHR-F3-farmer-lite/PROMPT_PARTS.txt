@@ -1,0 +1,4 @@
+ - BODY: cell x 3.0-36.7% y 3.0-61.9%; draw it about 425x542 px (28% x 53% of the sheet). torso + overalls + both legs + boots as ONE piece, WITHOUT arms (shoulder sockets hidden under the sleeve caps), neck stub at top centre only
+ - ARM_R: cell x 3.0-21.6% y 61.8-96.8%; draw it about 194x296 px (13% x 29% of the sheet). viewer's left arm: short sleeve + bare arm + relaxed hand, hanging straight, top end rounded and painted 15% longer to tuck under the shoulder
+ - ARM_L: cell x 21.6-37.2% y 61.8-95.6%; draw it about 148x284 px (10% x 28% of the sheet). viewer's right arm, same rules, mirror-consistent with the other arm
+ - HAT: cell x 36.6-90.8% y 3.0-52.5%; draw it about 739x446 px (48% x 44% of the sheet). straw hat seen at eye level from the front, axis vertical, brim horizontal, nothing inside, no underside

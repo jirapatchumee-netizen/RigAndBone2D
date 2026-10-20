@@ -1,0 +1,46 @@
+[
+  {
+    "request": {
+      "id": "sdk-1",
+      "command": "render",
+      "time": 0,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/reports/layer-drag-20261020/front-render.png",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/reports/layer-drag-20261020/Layers-front.rig2d"
+    },
+    "response": {
+      "id": "sdk-1",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/reports/layer-drag-20261020/front-render.png",
+        "revision": "87ef79afb2c37e5ac84fc1d799f47266954fa2ecb3d8dd458cf9ed93f84af747"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-2",
+      "command": "render",
+      "time": 0,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/reports/layer-drag-20261020/back-render.png",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/reports/layer-drag-20261020/Layers-back.rig2d"
+    },
+    "response": {
+      "id": "sdk-2",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/reports/layer-drag-20261020/back-render.png",
+        "revision": "0ca0c7b64ad49e394c1fbd7e472928ef7facd971a5160829ba1b233dfb9668cf"
+      }
+    }
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "front": {
+    "order": [
+      "back",
+      "side",
+      "front",
+      "root"
+    ],
+    "centerPixel": [
+      255,
+      0,
+      0,
+      255
+    ],
+    "onlyLayerValuesChanged": true
+  },
+  "back": {
+    "order": [
+      "side",
+      "front",
+      "back",
+      "root"
+    ],
+    "centerPixel": [
+      0,
+      0,
+      255,
+      255
+    ],
+    "onlyLayerValuesChanged": true
+  },
+  "selectionPreservedAcrossLayersAndBones": true
+}

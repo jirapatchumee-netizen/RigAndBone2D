@@ -1,0 +1,2329 @@
+[
+  {
+    "request": {
+      "id": "combat-export-001",
+      "command": "inspect",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d"
+    },
+    "response": {
+      "id": "combat-export-001",
+      "ok": true,
+      "result": {
+        "bones": [
+          {
+            "angle": 0,
+            "color": [
+              0.25,
+              0.43,
+              0.65
+            ],
+            "imageBytes": 70,
+            "index": 0,
+            "layer": -100,
+            "length": 1,
+            "name": "Root",
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "width": 1,
+            "x": -25,
+            "y": 10
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.25,
+              0.43,
+              0.65
+            ],
+            "imageBytes": 54588,
+            "index": 1,
+            "layer": 6,
+            "length": 56,
+            "name": "Torso",
+            "parent": 0,
+            "pivotX": 0.5,
+            "pivotY": 0.18,
+            "width": 74.94117647058823,
+            "x": 0,
+            "y": -30
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.96,
+              0.74,
+              0.46
+            ],
+            "imageBytes": 98723,
+            "index": 2,
+            "layer": 20,
+            "length": 84,
+            "name": "Determined head",
+            "parent": 1,
+            "pivotX": 0.5,
+            "pivotY": 0.92,
+            "width": 106.75,
+            "x": 0,
+            "y": -9
+          },
+          {
+            "angle": 10,
+            "color": [
+              0.96,
+              0.74,
+              0.46
+            ],
+            "imageBytes": 30805,
+            "index": 3,
+            "layer": 4,
+            "length": 48,
+            "name": "Back arm",
+            "parent": 1,
+            "pivotX": 0.8,
+            "pivotY": 0.15,
+            "width": 45.417040358744394,
+            "x": -23,
+            "y": 10
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.4,
+              0.26,
+              0.19
+            ],
+            "imageBytes": 17446,
+            "index": 4,
+            "layer": 10,
+            "length": 23,
+            "name": "Guard fist",
+            "parent": 3,
+            "pivotX": 0.5,
+            "pivotY": 0.75,
+            "width": 18.598765432098766,
+            "x": -24,
+            "y": 32
+          },
+          {
+            "angle": -45,
+            "color": [
+              0.96,
+              0.74,
+              0.46
+            ],
+            "imageBytes": 30840,
+            "index": 5,
+            "layer": 9,
+            "length": 48,
+            "name": "Weapon arm",
+            "parent": 1,
+            "pivotX": 0.2,
+            "pivotY": 0.15,
+            "width": 45.417040358744394,
+            "x": 23,
+            "y": 10
+          },
+          {
+            "angle": 35,
+            "color": [
+              0.4,
+              0.26,
+              0.19
+            ],
+            "imageBytes": 22180,
+            "index": 6,
+            "layer": 13,
+            "length": 24,
+            "name": "Gripping hand",
+            "parent": 5,
+            "pivotX": 0.5,
+            "pivotY": 0.68,
+            "width": 15.133004926108374,
+            "x": 24,
+            "y": 32
+          },
+          {
+            "angle": -5,
+            "color": [
+              0.73,
+              0.86,
+              0.95
+            ],
+            "imageBytes": 59951,
+            "index": 7,
+            "layer": 11,
+            "length": 40,
+            "name": "Morning Star handle",
+            "parent": 6,
+            "pivotX": 0.21,
+            "pivotY": 0.35,
+            "width": 92.15686274509804,
+            "x": 0,
+            "y": -7
+          },
+          {
+            "angle": 9,
+            "color": [
+              0.25,
+              0.43,
+              0.65
+            ],
+            "imageBytes": 15235,
+            "index": 8,
+            "layer": 2,
+            "length": 35,
+            "name": "Back thigh",
+            "parent": 0,
+            "pivotX": 0.5,
+            "pivotY": 0.04,
+            "width": 25.535714285714285,
+            "x": -12,
+            "y": 10
+          },
+          {
+            "angle": -9,
+            "color": [
+              0.4,
+              0.26,
+              0.19
+            ],
+            "imageBytes": 34994,
+            "index": 9,
+            "layer": 5,
+            "length": 31,
+            "name": "Back boot",
+            "parent": 8,
+            "pivotX": 0.5,
+            "pivotY": 0.08,
+            "width": 31.656084656084655,
+            "x": 0,
+            "y": 27
+          },
+          {
+            "angle": -9,
+            "color": [
+              0.25,
+              0.43,
+              0.65
+            ],
+            "imageBytes": 14742,
+            "index": 10,
+            "layer": 3,
+            "length": 35,
+            "name": "Front thigh",
+            "parent": 0,
+            "pivotX": 0.5,
+            "pivotY": 0.04,
+            "width": 25.714285714285715,
+            "x": 12,
+            "y": 10
+          },
+          {
+            "angle": 9,
+            "color": [
+              0.4,
+              0.26,
+              0.19
+            ],
+            "imageBytes": 34778,
+            "index": 11,
+            "layer": 7,
+            "length": 31,
+            "name": "Front boot",
+            "parent": 10,
+            "pivotX": 0.5,
+            "pivotY": 0.08,
+            "width": 31.326315789473686,
+            "x": 0,
+            "y": 27
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "imageBytes": 36248,
+            "index": 12,
+            "layer": 12,
+            "length": 17,
+            "name": "Chain",
+            "parent": 7,
+            "pivotX": 0.08,
+            "pivotY": 0.85,
+            "width": 34.82258064516129,
+            "x": 71,
+            "y": -1
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "imageBytes": 46919,
+            "index": 13,
+            "layer": 12,
+            "length": 39,
+            "name": "Morning Star head",
+            "parent": 12,
+            "pivotX": 0.1,
+            "pivotY": 0.52,
+            "width": 35.857142857142854,
+            "x": 30,
+            "y": -11
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "imageBytes": 86849,
+            "index": 14,
+            "layer": 1,
+            "length": 47,
+            "name": "Coat tails",
+            "parent": 1,
+            "pivotX": 0.5,
+            "pivotY": 0.12,
+            "width": 70.82867132867133,
+            "x": 0,
+            "y": 29
+          },
+          {
+            "angle": -5,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "imageBytes": 48517,
+            "index": 15,
+            "layer": 8,
+            "length": 36,
+            "name": "Back shoulder armor",
+            "parent": 3,
+            "pivotX": 0.75,
+            "pivotY": 0.2,
+            "width": 32.75409836065574,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "angle": 5,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "imageBytes": 50101,
+            "index": 16,
+            "layer": 14,
+            "length": 36,
+            "name": "Front shoulder armor",
+            "parent": 5,
+            "pivotX": 0.25,
+            "pivotY": 0.2,
+            "width": 31.840637450199203,
+            "x": 0,
+            "y": 0
+          },
+          {
+            "angle": 180,
+            "color": [
+              0.65,
+              0.47,
+              0.28
+            ],
+            "imageBytes": 0,
+            "index": 17,
+            "layer": 0,
+            "length": 60,
+            "name": "Training dummy stand",
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "width": 8,
+            "x": 144,
+            "y": 69
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.72,
+              0.29,
+              0.22
+            ],
+            "imageBytes": 0,
+            "index": 18,
+            "layer": 1,
+            "length": 32,
+            "name": "Training dummy body",
+            "parent": 17,
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "width": 32,
+            "x": 0,
+            "y": 42
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.65,
+              0.47,
+              0.28
+            ],
+            "imageBytes": 0,
+            "index": 19,
+            "layer": 2,
+            "length": 20,
+            "name": "Training dummy head",
+            "parent": 18,
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "width": 24,
+            "x": 0,
+            "y": 40
+          },
+          {
+            "angle": 90,
+            "color": [
+              0.65,
+              0.47,
+              0.28
+            ],
+            "imageBytes": 0,
+            "index": 20,
+            "layer": 0,
+            "length": 46,
+            "name": "Training dummy crossbar",
+            "parent": 18,
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "width": 8,
+            "x": 23,
+            "y": 20
+          },
+          {
+            "angle": 90,
+            "color": [
+              0.65,
+              0.47,
+              0.28
+            ],
+            "imageBytes": 0,
+            "index": 21,
+            "layer": 0,
+            "length": 46,
+            "name": "Training dummy base",
+            "parent": 17,
+            "pivotX": 0.5,
+            "pivotY": 0,
+            "width": 8,
+            "x": 23,
+            "y": 0
+          }
+        ],
+        "duration": 3,
+        "frames": [
+          {
+            "angles": [
+              0,
+              0,
+              0,
+              10,
+              0,
+              -45,
+              35,
+              -5,
+              9,
+              -9,
+              -9,
+              9,
+              0,
+              0,
+              0,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 0
+          },
+          {
+            "angles": [
+              0,
+              -2,
+              2,
+              10,
+              0,
+              -45,
+              35,
+              -5,
+              9,
+              -9,
+              -9,
+              9,
+              -6,
+              0,
+              3,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 0.35
+          },
+          {
+            "angles": [
+              0,
+              -7,
+              5,
+              28,
+              0,
+              -115,
+              30,
+              12,
+              16,
+              -16,
+              -18,
+              18,
+              22,
+              -18,
+              10,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 0.7
+          },
+          {
+            "angles": [
+              0,
+              -9,
+              6,
+              35,
+              0,
+              -145,
+              20,
+              25,
+              18,
+              -18,
+              -22,
+              22,
+              10,
+              -8,
+              14,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 0.95
+          },
+          {
+            "angles": [
+              0,
+              -5,
+              3,
+              26,
+              0,
+              -130,
+              18,
+              18,
+              10,
+              -10,
+              -22,
+              22,
+              -10,
+              -16,
+              8,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 1
+          },
+          {
+            "angles": [
+              0,
+              4,
+              -5,
+              12,
+              0,
+              -95,
+              15,
+              5,
+              0,
+              0,
+              -22,
+              22,
+              -35,
+              -25,
+              -4,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 1.1
+          },
+          {
+            "angles": [
+              0,
+              9,
+              -7,
+              -20,
+              0,
+              -20,
+              12,
+              7,
+              -10,
+              10,
+              -22,
+              22,
+              0,
+              10,
+              -12,
+              -5,
+              5,
+              180,
+              8,
+              0,
+              90,
+              90
+            ],
+            "time": 1.3
+          },
+          {
+            "angles": [
+              0,
+              12,
+              -8,
+              -30,
+              0,
+              20,
+              -15,
+              -15,
+              -12,
+              12,
+              -18,
+              18,
+              28,
+              22,
+              -16,
+              -5,
+              5,
+              180,
+              18,
+              0,
+              90,
+              90
+            ],
+            "time": 1.5
+          },
+          {
+            "angles": [
+              0,
+              4,
+              -3,
+              0,
+              0,
+              -10,
+              20,
+              -10,
+              9,
+              -9,
+              -9,
+              9,
+              32,
+              -15,
+              -6,
+              -5,
+              5,
+              180,
+              -6,
+              0,
+              90,
+              90
+            ],
+            "time": 1.85
+          },
+          {
+            "angles": [
+              0,
+              0,
+              0,
+              10,
+              0,
+              -30,
+              28,
+              -5,
+              9,
+              -9,
+              -9,
+              9,
+              10,
+              0,
+              0,
+              -5,
+              5,
+              180,
+              -3,
+              0,
+              90,
+              90
+            ],
+            "time": 2
+          },
+          {
+            "angles": [
+              0,
+              -3,
+              3,
+              10,
+              0,
+              -55,
+              40,
+              0,
+              9,
+              -9,
+              -9,
+              9,
+              -20,
+              10,
+              8,
+              -5,
+              5,
+              180,
+              4,
+              0,
+              90,
+              90
+            ],
+            "time": 2.2
+          },
+          {
+            "angles": [
+              0,
+              1,
+              -1,
+              10,
+              0,
+              -45,
+              35,
+              -5,
+              9,
+              -9,
+              -9,
+              9,
+              6,
+              -5,
+              -3,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 2.6
+          },
+          {
+            "angles": [
+              0,
+              0,
+              0,
+              10,
+              0,
+              -45,
+              35,
+              -5,
+              9,
+              -9,
+              -9,
+              9,
+              0,
+              0,
+              0,
+              -5,
+              5,
+              180,
+              0,
+              0,
+              90,
+              90
+            ],
+            "time": 3
+          }
+        ],
+        "revision": "7c614203aa3de789aba5ebb8bb86ad28182936b83d69609e20dbd44f9db4af92",
+        "version": 1,
+        "worldBones": [
+          {
+            "end": [
+              -25,
+              11
+            ],
+            "index": 0,
+            "origin": [
+              -25,
+              10
+            ]
+          },
+          {
+            "end": [
+              -25,
+              36
+            ],
+            "index": 1,
+            "origin": [
+              -25,
+              -20
+            ]
+          },
+          {
+            "end": [
+              -25,
+              55
+            ],
+            "index": 2,
+            "origin": [
+              -25,
+              -29
+            ]
+          },
+          {
+            "end": [
+              -56.33511252801266,
+              37.27077214458598
+            ],
+            "index": 3,
+            "origin": [
+              -48,
+              -10
+            ]
+          },
+          {
+            "end": [
+              -81.18603584397417,
+              39.996870151665114
+            ],
+            "index": 4,
+            "origin": [
+              -77.19212775763476,
+              17.346291832384328
+            ]
+          },
+          {
+            "end": [
+              31.941125496954278,
+              23.941125496954285
+            ],
+            "index": 5,
+            "origin": [
+              -2,
+              -10
+            ]
+          },
+          {
+            "end": [
+              41.76553601045299,
+              19.292240321785375
+            ],
+            "index": 6,
+            "origin": [
+              37.59797974644666,
+              -4.343145750507617
+            ]
+          },
+          {
+            "end": [
+              46.73520430687898,
+              27.40023302996966
+            ],
+            "index": 7,
+            "origin": [
+              36.38244250277815,
+              -11.236800021593073
+            ]
+          },
+          {
+            "end": [
+              -42.47520627640808,
+              54.56909192082982
+            ],
+            "index": 8,
+            "origin": [
+              -37,
+              20
+            ]
+          },
+          {
+            "end": [
+              -41.22373055608623,
+              77.66758519606873
+            ],
+            "index": 9,
+            "origin": [
+              -41.22373055608623,
+              46.66758519606872
+            ]
+          },
+          {
+            "end": [
+              -7.52479372359192,
+              54.56909192082982
+            ],
+            "index": 10,
+            "origin": [
+              -13,
+              20
+            ]
+          },
+          {
+            "end": [
+              -8.776269443913765,
+              77.66758519606873
+            ],
+            "index": 11,
+            "origin": [
+              -8.776269443913765,
+              46.66758519606872
+            ]
+          },
+          {
+            "end": [
+              109.10428089094233,
+              -14.158139003246951
+            ],
+            "index": 12,
+            "origin": [
+              104.70435712419948,
+              -30.578878050161112
+            ]
+          },
+          {
+            "end": [
+              140.9290651757421,
+              -11.297526267142821
+            ],
+            "index": 13,
+            "origin": [
+              130.8351224167438,
+              -48.96863349241649
+            ]
+          },
+          {
+            "end": [
+              -25,
+              56
+            ],
+            "index": 14,
+            "origin": [
+              -25,
+              9
+            ]
+          },
+          {
+            "end": [
+              -51.13760673891569,
+              25.86300913130284
+            ],
+            "index": 15,
+            "origin": [
+              -48,
+              -10
+            ]
+          },
+          {
+            "end": [
+              21.140353948715415,
+              17.577599952283208
+            ],
+            "index": 16,
+            "origin": [
+              -2,
+              -10
+            ]
+          },
+          {
+            "end": [
+              144,
+              9
+            ],
+            "index": 17,
+            "origin": [
+              144,
+              69
+            ]
+          },
+          {
+            "end": [
+              144,
+              -5
+            ],
+            "index": 18,
+            "origin": [
+              144,
+              27
+            ]
+          },
+          {
+            "end": [
+              144,
+              -33
+            ],
+            "index": 19,
+            "origin": [
+              144,
+              -13
+            ]
+          },
+          {
+            "end": [
+              167,
+              6.999999999999995
+            ],
+            "index": 20,
+            "origin": [
+              121,
+              7.0000000000000036
+            ]
+          },
+          {
+            "end": [
+              167,
+              68.99999999999999
+            ],
+            "index": 21,
+            "origin": [
+              121,
+              69
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-002",
+      "command": "validate",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d"
+    },
+    "response": {
+      "id": "combat-export-002",
+      "ok": true,
+      "result": {
+        "bones": 22,
+        "keyframes": 13,
+        "valid": true
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-003",
+      "command": "export_sheet",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-sheet.png"
+    },
+    "response": {
+      "id": "combat-export-003",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 6,
+        "duration": 3,
+        "frames": 24,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-sheet.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-004",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.0,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/000.png"
+    },
+    "response": {
+      "id": "combat-export-004",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/000.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-005",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.05,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/001.png"
+    },
+    "response": {
+      "id": "combat-export-005",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/001.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-006",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.1,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/002.png"
+    },
+    "response": {
+      "id": "combat-export-006",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/002.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-007",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.15,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/003.png"
+    },
+    "response": {
+      "id": "combat-export-007",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/003.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-008",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.2,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/004.png"
+    },
+    "response": {
+      "id": "combat-export-008",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/004.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-009",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.25,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/005.png"
+    },
+    "response": {
+      "id": "combat-export-009",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/005.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-010",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.3,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/006.png"
+    },
+    "response": {
+      "id": "combat-export-010",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/006.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-011",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.35,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/007.png"
+    },
+    "response": {
+      "id": "combat-export-011",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/007.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-012",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.4,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/008.png"
+    },
+    "response": {
+      "id": "combat-export-012",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/008.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-013",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.45,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/009.png"
+    },
+    "response": {
+      "id": "combat-export-013",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/009.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-014",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.5,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/010.png"
+    },
+    "response": {
+      "id": "combat-export-014",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/010.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-015",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.55,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/011.png"
+    },
+    "response": {
+      "id": "combat-export-015",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/011.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-016",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.6,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/012.png"
+    },
+    "response": {
+      "id": "combat-export-016",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/012.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-017",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.65,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/013.png"
+    },
+    "response": {
+      "id": "combat-export-017",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/013.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-018",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.7,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/014.png"
+    },
+    "response": {
+      "id": "combat-export-018",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/014.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-019",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.75,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/015.png"
+    },
+    "response": {
+      "id": "combat-export-019",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/015.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-020",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.8,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/016.png"
+    },
+    "response": {
+      "id": "combat-export-020",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/016.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-021",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.85,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/017.png"
+    },
+    "response": {
+      "id": "combat-export-021",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/017.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-022",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.9,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/018.png"
+    },
+    "response": {
+      "id": "combat-export-022",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/018.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-023",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 0.95,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/019.png"
+    },
+    "response": {
+      "id": "combat-export-023",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/019.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-024",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.0,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/020.png"
+    },
+    "response": {
+      "id": "combat-export-024",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/020.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-025",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.05,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/021.png"
+    },
+    "response": {
+      "id": "combat-export-025",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/021.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-026",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.1,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/022.png"
+    },
+    "response": {
+      "id": "combat-export-026",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/022.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-027",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.15,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/023.png"
+    },
+    "response": {
+      "id": "combat-export-027",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/023.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-028",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.2,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/024.png"
+    },
+    "response": {
+      "id": "combat-export-028",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/024.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-029",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.25,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/025.png"
+    },
+    "response": {
+      "id": "combat-export-029",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/025.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-030",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.3,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/026.png"
+    },
+    "response": {
+      "id": "combat-export-030",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/026.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-031",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.35,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/027.png"
+    },
+    "response": {
+      "id": "combat-export-031",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/027.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-032",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.4,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/028.png"
+    },
+    "response": {
+      "id": "combat-export-032",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/028.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-033",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.45,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/029.png"
+    },
+    "response": {
+      "id": "combat-export-033",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/029.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-034",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.5,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/030.png"
+    },
+    "response": {
+      "id": "combat-export-034",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/030.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-035",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.55,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/031.png"
+    },
+    "response": {
+      "id": "combat-export-035",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/031.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-036",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.6,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/032.png"
+    },
+    "response": {
+      "id": "combat-export-036",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/032.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-037",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.65,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/033.png"
+    },
+    "response": {
+      "id": "combat-export-037",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/033.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-038",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.7,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/034.png"
+    },
+    "response": {
+      "id": "combat-export-038",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/034.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-039",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.75,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/035.png"
+    },
+    "response": {
+      "id": "combat-export-039",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/035.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-040",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.8,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/036.png"
+    },
+    "response": {
+      "id": "combat-export-040",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/036.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-041",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.85,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/037.png"
+    },
+    "response": {
+      "id": "combat-export-041",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/037.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-042",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.9,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/038.png"
+    },
+    "response": {
+      "id": "combat-export-042",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/038.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-043",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 1.95,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/039.png"
+    },
+    "response": {
+      "id": "combat-export-043",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/039.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-044",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.0,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/040.png"
+    },
+    "response": {
+      "id": "combat-export-044",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/040.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-045",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.05,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/041.png"
+    },
+    "response": {
+      "id": "combat-export-045",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/041.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-046",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.1,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/042.png"
+    },
+    "response": {
+      "id": "combat-export-046",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/042.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-047",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.15,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/043.png"
+    },
+    "response": {
+      "id": "combat-export-047",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/043.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-048",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.2,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/044.png"
+    },
+    "response": {
+      "id": "combat-export-048",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/044.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-049",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.25,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/045.png"
+    },
+    "response": {
+      "id": "combat-export-049",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/045.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-050",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.3,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/046.png"
+    },
+    "response": {
+      "id": "combat-export-050",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/046.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-051",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.35,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/047.png"
+    },
+    "response": {
+      "id": "combat-export-051",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/047.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-052",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.4,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/048.png"
+    },
+    "response": {
+      "id": "combat-export-052",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/048.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-053",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.45,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/049.png"
+    },
+    "response": {
+      "id": "combat-export-053",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/049.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-054",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.5,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/050.png"
+    },
+    "response": {
+      "id": "combat-export-054",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/050.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-055",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.55,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/051.png"
+    },
+    "response": {
+      "id": "combat-export-055",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/051.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-056",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.6,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/052.png"
+    },
+    "response": {
+      "id": "combat-export-056",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/052.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-057",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.65,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/053.png"
+    },
+    "response": {
+      "id": "combat-export-057",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/053.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-058",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.7,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/054.png"
+    },
+    "response": {
+      "id": "combat-export-058",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/054.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-059",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.75,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/055.png"
+    },
+    "response": {
+      "id": "combat-export-059",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/055.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-060",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.8,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/056.png"
+    },
+    "response": {
+      "id": "combat-export-060",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/056.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-061",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.85,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/057.png"
+    },
+    "response": {
+      "id": "combat-export-061",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/057.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-062",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.9,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/058.png"
+    },
+    "response": {
+      "id": "combat-export-062",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/058.png"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "combat-export-063",
+      "command": "render",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/Inquisitor-combat.rig2d",
+      "time": 2.95,
+      "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/059.png"
+    },
+    "response": {
+      "id": "combat-export-063",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 3,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/examples/inquisitor/frames/059.png"
+      }
+    }
+  }
+]

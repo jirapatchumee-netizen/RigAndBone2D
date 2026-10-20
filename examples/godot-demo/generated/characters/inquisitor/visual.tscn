@@ -1,0 +1,714 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" path="atlas.png" id="1_d2wim"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dxqyr"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 174, 150, 112)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wy61w"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 2, 214, 168)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aaw3x"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(156, 174, 91, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xn3nl"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(37, 628, 38, 46)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_22uu0"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(78, 472, 66, 72)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bfisj"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(156, 174, 91, 96)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d05wv"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 628, 31, 48)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y8rw3"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 388, 185, 80)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onyed"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(79, 628, 70, 34)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mo07q"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 472, 72, 78)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y1hop"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(148, 472, 64, 72)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjmsd"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 290, 142, 94)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jlnri"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(2, 554, 52, 70)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_55ipm"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(181, 554, 64, 62)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wo4ic"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(58, 554, 52, 70)
+filter_clip = true
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gftvs"]
+atlas = ExtResource("1_d2wim")
+region = Rect2(114, 554, 63, 62)
+filter_clip = true
+
+[sub_resource type="Animation" id="Animation_qa1hl"]
+length = 3.0
+markers = [{
+"color": Color(1, 1, 1, 1),
+"name": &"hit_start",
+"time": 1.1
+}, {
+"color": Color(1, 1, 1, 1),
+"name": &"hit_end",
+"time": 1.5
+}, {
+"color": Color(1, 1, 1, 1),
+"name": &"attack_finished",
+"time": 3.0
+}]
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("root:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("root/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.03490658503988659, -0.12217304763960307, -0.15707963267948966, -0.08726646259971647, 0.06981317007977318, 0.15707963267948966, 0.20943951023931956, 0.06981317007977318, 0.0, -0.05235987755982989, 0.017453292519943295, 0.0]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("root/torso/determined-head:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = false
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.03490658503988659, 0.08726646259971647, 0.10471975511965978, 0.05235987755982989, -0.08726646259971647, -0.12217304763960307, -0.13962634015954636, -0.05235987755982989, 0.0, 0.05235987755982989, -0.017453292519943295, 0.0]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("root/torso/back-arm:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = false
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.17453292519943295, 0.17453292519943295, 0.4886921905584123, 0.6108652381980153, 0.4537856055185257, 0.20943951023931956, -0.3490658503988659, -0.5235987755982988, 0.0, 0.17453292519943295, 0.17453292519943295, 0.17453292519943295, 0.17453292519943295]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("root/torso/back-arm/guard-fist:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = false
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("root/torso/weapon-arm:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = false
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.7853981633974483, -0.7853981633974483, -2.007128639793479, -2.530727415391778, -2.2689280275926285, -1.6580627893946132, -0.3490658503988659, 0.3490658503988659, -0.17453292519943295, -0.5235987755982988, -0.9599310885968813, -0.7853981633974483, -0.7853981633974483]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("root/torso/weapon-arm/gripping-hand:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = false
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.6108652381980153, 0.6108652381980153, 0.5235987755982988, 0.3490658503988659, 0.3141592653589793, 0.2617993877991494, 0.20943951023931956, -0.2617993877991494, 0.3490658503988659, 0.4886921905584123, 0.6981317007977318, 0.6108652381980153, 0.6108652381980153]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("root/torso/weapon-arm/gripping-hand/morning-star-handle:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = false
+tracks/7/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.08726646259971647, -0.08726646259971647, 0.20943951023931956, 0.4363323129985824, 0.3141592653589793, 0.08726646259971647, 0.12217304763960307, -0.2617993877991494, -0.17453292519943295, -0.08726646259971647, 0.0, -0.08726646259971647, -0.08726646259971647]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("root/back-thigh:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = false
+tracks/8/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.15707963267948966, 0.15707963267948966, 0.2792526803190927, 0.3141592653589793, 0.17453292519943295, 0.0, -0.17453292519943295, -0.20943951023931956, 0.15707963267948966, 0.15707963267948966, 0.15707963267948966, 0.15707963267948966, 0.15707963267948966]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("root/back-thigh/back-boot:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = false
+tracks/9/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.15707963267948966, -0.15707963267948966, -0.2792526803190927, -0.3141592653589793, -0.17453292519943295, 0.0, 0.17453292519943295, 0.20943951023931956, -0.15707963267948966, -0.15707963267948966, -0.15707963267948966, -0.15707963267948966, -0.15707963267948966]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("root/front-thigh:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = false
+tracks/10/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [-0.15707963267948966, -0.15707963267948966, -0.3141592653589793, -0.3839724354387525, -0.3839724354387525, -0.3839724354387525, -0.3839724354387525, -0.3141592653589793, -0.15707963267948966, -0.15707963267948966, -0.15707963267948966, -0.15707963267948966, -0.15707963267948966]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("root/front-thigh/front-boot:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = false
+tracks/11/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.15707963267948966, 0.15707963267948966, 0.3141592653589793, 0.3839724354387525, 0.3839724354387525, 0.3839724354387525, 0.3839724354387525, 0.3141592653589793, 0.15707963267948966, 0.15707963267948966, 0.15707963267948966, 0.15707963267948966, 0.15707963267948966]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("root/torso/weapon-arm/gripping-hand/morning-star-handle/chain:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = false
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, -0.10471975511965978, 0.3839724354387525, 0.17453292519943295, -0.17453292519943295, -0.6108652381980153, 0.0, 0.4886921905584123, 0.5585053606381855, 0.17453292519943295, -0.3490658503988659, 0.10471975511965978, 0.0]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("root/torso/weapon-arm/gripping-hand/morning-star-handle/chain/morning-star-head:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = false
+tracks/13/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.0, -0.3141592653589793, -0.13962634015954636, -0.2792526803190927, -0.4363323129985824, 0.17453292519943295, 0.3839724354387525, -0.2617993877991494, 0.0, 0.17453292519943295, -0.08726646259971647, 0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("root/torso/coat-tails:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = false
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.35, 0.7, 0.95, 1, 1.1, 1.3, 1.5, 1.85, 2, 2.2, 2.6, 3),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.05235987755982989, 0.17453292519943295, 0.24434609527920614, 0.13962634015954636, -0.06981317007977318, -0.20943951023931956, -0.2792526803190927, -0.10471975511965978, 0.0, 0.13962634015954636, -0.05235987755982989, 0.0]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("root/torso/back-arm/back-shoulder-armor:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = false
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.08726646259971647]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("root/torso/weapon-arm/front-shoulder-armor:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = false
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.08726646259971647]
+}
+
+[sub_resource type="Animation" id="Animation_up3st"]
+length = 0.01
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("root:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = false
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("root/torso:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = false
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.01),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -0.000997331001139617]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("root/torso/determined-head:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = false
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.01),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.000997331001139617]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("root/torso/back-arm:rotation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = false
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.17453292519943295]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("root/torso/back-arm/guard-fist:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = false
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("root/torso/weapon-arm:rotation")
+tracks/5/interp = 1
+tracks/5/loop_wrap = false
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.7853981633974483]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("root/torso/weapon-arm/gripping-hand:rotation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = false
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.6108652381980153]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("root/torso/weapon-arm/gripping-hand/morning-star-handle:rotation")
+tracks/7/interp = 1
+tracks/7/loop_wrap = false
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.08726646259971647]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("root/back-thigh:rotation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = false
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.15707963267948966]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("root/back-thigh/back-boot:rotation")
+tracks/9/interp = 1
+tracks/9/loop_wrap = false
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.15707963267948966]
+}
+tracks/10/type = "value"
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/path = NodePath("root/front-thigh:rotation")
+tracks/10/interp = 1
+tracks/10/loop_wrap = false
+tracks/10/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.15707963267948966]
+}
+tracks/11/type = "value"
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/path = NodePath("root/front-thigh/front-boot:rotation")
+tracks/11/interp = 1
+tracks/11/loop_wrap = false
+tracks/11/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.15707963267948966]
+}
+tracks/12/type = "value"
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/path = NodePath("root/torso/weapon-arm/gripping-hand/morning-star-handle/chain:rotation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = false
+tracks/12/keys = {
+"times": PackedFloat32Array(0, 0.01),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, -0.002991993003418851]
+}
+tracks/13/type = "value"
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/path = NodePath("root/torso/weapon-arm/gripping-hand/morning-star-handle/chain/morning-star-head:rotation")
+tracks/13/interp = 1
+tracks/13/loop_wrap = false
+tracks/13/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/14/type = "value"
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/path = NodePath("root/torso/coat-tails:rotation")
+tracks/14/interp = 1
+tracks/14/loop_wrap = false
+tracks/14/keys = {
+"times": PackedFloat32Array(0, 0.01),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 0.0014959965017094254]
+}
+tracks/15/type = "value"
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/path = NodePath("root/torso/back-arm/back-shoulder-armor:rotation")
+tracks/15/interp = 1
+tracks/15/loop_wrap = false
+tracks/15/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.08726646259971647]
+}
+tracks/16/type = "value"
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/path = NodePath("root/torso/weapon-arm/front-shoulder-armor:rotation")
+tracks/16/interp = 1
+tracks/16/loop_wrap = false
+tracks/16/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.08726646259971647]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vk160"]
+_data = {
+&"attack": SubResource("Animation_qa1hl"),
+&"idle": SubResource("Animation_up3st")
+}
+
+[node name="Visual" type="Node2D" unique_id=622548307]
+texture_filter = 2
+metadata/sockets = {
+"weapon_socket": "root/torso/weapon-arm/gripping-hand",
+"weapon_tip": "root/torso/weapon-arm/gripping-hand/morning-star-handle/chain/morning-star-head"
+}
+
+[node name="root" type="Node2D" parent="." unique_id=851275458]
+position = Vector2(-25, 10)
+
+[node name="torso" type="Node2D" parent="root" unique_id=866598958]
+position = Vector2(0, -30)
+
+[node name="Art" type="Sprite2D" parent="root/torso" unique_id=1228937359]
+z_index = 6
+z_as_relative = false
+position = Vector2(-37.47059, -10.08)
+scale = Vector2(0.49960783, 0.5)
+texture = SubResource("AtlasTexture_dxqyr")
+centered = false
+
+[node name="determined-head" type="Node2D" parent="root/torso" unique_id=1891806043]
+position = Vector2(0, -9)
+
+[node name="Art" type="Sprite2D" parent="root/torso/determined-head" unique_id=1492025408]
+z_index = 16
+z_as_relative = false
+position = Vector2(-53.375, -77.28)
+scale = Vector2(0.49883178, 0.5)
+texture = SubResource("AtlasTexture_wy61w")
+centered = false
+
+[node name="back-arm" type="Node2D" parent="root/torso" unique_id=542482410]
+position = Vector2(-23, 10)
+rotation = 0.17453292
+
+[node name="Art" type="Sprite2D" parent="root/torso/back-arm" unique_id=109708703]
+z_index = 4
+z_as_relative = false
+position = Vector2(-36.333633, -7.2)
+scale = Vector2(0.49908835, 0.5)
+texture = SubResource("AtlasTexture_aaw3x")
+centered = false
+
+[node name="guard-fist" type="Node2D" parent="root/torso/back-arm" unique_id=768291325]
+position = Vector2(-24, 32)
+
+[node name="Art" type="Sprite2D" parent="root/torso/back-arm/guard-fist" unique_id=2109749185]
+z_index = 10
+z_as_relative = false
+position = Vector2(-9.299383, -17.25)
+scale = Vector2(0.4894412, 0.5)
+texture = SubResource("AtlasTexture_xn3nl")
+centered = false
+
+[node name="back-shoulder-armor" type="Node2D" parent="root/torso/back-arm" unique_id=107027287]
+rotation = -0.08726646
+
+[node name="Art" type="Sprite2D" parent="root/torso/back-arm/back-shoulder-armor" unique_id=977460101]
+z_index = 8
+z_as_relative = false
+position = Vector2(-24.565575, -7.2)
+scale = Vector2(0.4962742, 0.5)
+texture = SubResource("AtlasTexture_22uu0")
+centered = false
+
+[node name="weapon-arm" type="Node2D" parent="root/torso" unique_id=1173317968]
+position = Vector2(23, 10)
+rotation = -0.7853982
+
+[node name="Art" type="Sprite2D" parent="root/torso/weapon-arm" unique_id=26108112]
+z_index = 9
+z_as_relative = false
+position = Vector2(-9.083408, -7.2)
+scale = Vector2(0.49908835, 0.5)
+texture = SubResource("AtlasTexture_bfisj")
+centered = false
+flip_h = true
+
+[node name="gripping-hand" type="Node2D" parent="root/torso/weapon-arm" unique_id=818307848]
+position = Vector2(24, 32)
+rotation = 0.61086524
+
+[node name="Art" type="Sprite2D" parent="root/torso/weapon-arm/gripping-hand" unique_id=715299823]
+z_index = 14
+z_as_relative = false
+position = Vector2(-7.5665026, -16.32)
+scale = Vector2(0.48816144, 0.5)
+texture = SubResource("AtlasTexture_d05wv")
+centered = false
+
+[node name="morning-star-handle" type="Node2D" parent="root/torso/weapon-arm/gripping-hand" unique_id=517669137]
+position = Vector2(0, -7)
+rotation = -0.08726646
+
+[node name="Art" type="Sprite2D" parent="root/torso/weapon-arm/gripping-hand/morning-star-handle" unique_id=998059319]
+z_index = 11
+z_as_relative = false
+position = Vector2(-19.352942, -14)
+scale = Vector2(0.4981452, 0.5)
+texture = SubResource("AtlasTexture_y8rw3")
+centered = false
+
+[node name="chain" type="Node2D" parent="root/torso/weapon-arm/gripping-hand/morning-star-handle" unique_id=1416452272]
+position = Vector2(71, -1)
+
+[node name="Art" type="Sprite2D" parent="root/torso/weapon-arm/gripping-hand/morning-star-handle/chain" unique_id=789235856]
+z_index = 12
+z_as_relative = false
+position = Vector2(-2.7858064, -14.45)
+scale = Vector2(0.49746543, 0.5)
+texture = SubResource("AtlasTexture_onyed")
+centered = false
+
+[node name="morning-star-head" type="Node2D" parent="root/torso/weapon-arm/gripping-hand/morning-star-handle/chain" unique_id=942727385]
+position = Vector2(30, -11)
+
+[node name="Art" type="Sprite2D" parent="root/torso/weapon-arm/gripping-hand/morning-star-handle/chain/morning-star-head" unique_id=280224348]
+z_index = 13
+z_as_relative = false
+position = Vector2(-3.5857143, -20.28)
+scale = Vector2(0.49801588, 0.5)
+texture = SubResource("AtlasTexture_mo07q")
+centered = false
+
+[node name="front-shoulder-armor" type="Node2D" parent="root/torso/weapon-arm" unique_id=1607843565]
+rotation = 0.08726646
+
+[node name="Art" type="Sprite2D" parent="root/torso/weapon-arm/front-shoulder-armor" unique_id=423726357]
+z_index = 15
+z_as_relative = false
+position = Vector2(-7.9601593, -7.2)
+scale = Vector2(0.49750996, 0.5)
+texture = SubResource("AtlasTexture_y1hop")
+centered = false
+
+[node name="coat-tails" type="Node2D" parent="root/torso" unique_id=814393140]
+position = Vector2(0, 29)
+
+[node name="Art" type="Sprite2D" parent="root/torso/coat-tails" unique_id=1988681990]
+z_index = 1
+z_as_relative = false
+position = Vector2(-35.414337, -5.64)
+scale = Vector2(0.49879345, 0.5)
+texture = SubResource("AtlasTexture_sjmsd")
+centered = false
+
+[node name="back-thigh" type="Node2D" parent="root" unique_id=1144665512]
+position = Vector2(-12, 10)
+rotation = 0.15707964
+
+[node name="Art" type="Sprite2D" parent="root/back-thigh" unique_id=496530318]
+z_index = 2
+z_as_relative = false
+position = Vector2(-12.767858, -1.4)
+scale = Vector2(0.49107143, 0.49744898)
+texture = SubResource("AtlasTexture_jlnri")
+centered = false
+
+[node name="back-boot" type="Node2D" parent="root/back-thigh" unique_id=839941769]
+position = Vector2(0, 27)
+rotation = -0.15707964
+
+[node name="Art" type="Sprite2D" parent="root/back-thigh/back-boot" unique_id=1389785252]
+z_index = 5
+z_as_relative = false
+position = Vector2(-15.828042, -2.48)
+scale = Vector2(0.4946263, 0.5)
+texture = SubResource("AtlasTexture_55ipm")
+centered = false
+
+[node name="front-thigh" type="Node2D" parent="root" unique_id=1332275155]
+position = Vector2(12, 10)
+rotation = -0.15707964
+
+[node name="Art" type="Sprite2D" parent="root/front-thigh" unique_id=176789682]
+z_index = 3
+z_as_relative = false
+position = Vector2(-12.857142, -1.4)
+scale = Vector2(0.4945055, 0.5)
+texture = SubResource("AtlasTexture_wo4ic")
+centered = false
+
+[node name="front-boot" type="Node2D" parent="root/front-thigh" unique_id=295522878]
+position = Vector2(0, 27)
+rotation = 0.15707964
+
+[node name="Art" type="Sprite2D" parent="root/front-thigh/front-boot" unique_id=2066194466]
+z_index = 7
+z_as_relative = false
+position = Vector2(-15.663157, -2.48)
+scale = Vector2(0.4972431, 0.5)
+texture = SubResource("AtlasTexture_gftvs")
+centered = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1674752337]
+libraries/ = SubResource("AnimationLibrary_vk160")

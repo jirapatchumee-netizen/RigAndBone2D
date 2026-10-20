@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "source": "../spriters-resource/825256925_1638955110962641_9009267157229036913_n.png",
+  "parts": [
+    {
+      "id": "head_determined",
+      "rect": [
+        1450,
+        56,
+        1896,
+        400
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "head_shouting",
+      "rect": [
+        495,
+        56,
+        945,
+        400
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "body",
+      "rect": [
+        60,
+        442,
+        440,
+        718
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "coat",
+      "rect": [
+        477,
+        440,
+        920,
+        734
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "shoulder_left",
+      "rect": [
+        959,
+        425,
+        1197,
+        687
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "shoulder_right",
+      "rect": [
+        1230,
+        425,
+        1468,
+        690
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "arm_left",
+      "rect": [
+        85,
+        745,
+        318,
+        973
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "legs",
+      "rect": [
+        500,
+        759,
+        808,
+        973
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "boot_left",
+      "rect": [
+        951,
+        777,
+        1158,
+        982
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "boot_right",
+      "rect": [
+        1163,
+        777,
+        1369,
+        982
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "hand_fist",
+      "rect": [
+        1565,
+        782,
+        1717,
+        963
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "hand_grasp",
+      "rect": [
+        1735,
+        744,
+        1883,
+        964
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "mace_head",
+      "rect": [
+        22,
+        996,
+        282,
+        1280
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "chain",
+      "rect": [
+        590,
+        1090,
+        866,
+        1236
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "handle",
+      "rect": [
+        888,
+        1063,
+        1380,
+        1280
+      ],
+      "isolate": "largest_alpha"
+    },
+    {
+      "id": "leg_left",
+      "derivedFrom": "legs",
+      "rect": [
+        0,
+        0,
+        143,
+        196
+      ],
+      "isolate": "none"
+    },
+    {
+      "id": "leg_right",
+      "derivedFrom": "legs",
+      "rect": [
+        143,
+        0,
+        287,
+        196
+      ],
+      "isolate": "none"
+    },
+    {
+      "id": "handle_mirrored",
+      "derivedFrom": "handle",
+      "mirrorX": true,
+      "isolate": "none"
+    },
+    {
+      "id": "mace_head_mirrored",
+      "derivedFrom": "mace_head",
+      "mirrorX": true,
+      "isolate": "none"
+    },
+    {
+      "id": "arm_right",
+      "derivedFrom": "arm_left",
+      "mirrorX": true,
+      "isolate": "none"
+    },
+    {
+      "id": "root",
+      "transparent": true
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+[
+  {
+    "request": {
+      "id": "sdk-1",
+      "command": "inspect",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-1",
+      "ok": true,
+      "result": {
+        "bones": [
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "root",
+            "imageBytes": 0,
+            "index": 0,
+            "layer": -100,
+            "length": 1,
+            "name": "root",
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "visible": false,
+            "width": 20,
+            "x": 0,
+            "y": 40
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "pelvis",
+            "imageBytes": 137963,
+            "index": 1,
+            "layer": 22,
+            "length": 50,
+            "name": "pelvis",
+            "parent": 0,
+            "pivotX": 0.5,
+            "pivotY": 0.5,
+            "width": 55.11945392491467,
+            "x": 0,
+            "y": -5
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "torso",
+            "imageBytes": 181210,
+            "index": 2,
+            "layer": 20,
+            "length": 82,
+            "name": "torso",
+            "parent": 1,
+            "pivotX": 0.5,
+            "pivotY": 0.9,
+            "width": 76.65722379603399,
+            "x": 0,
+            "y": -21
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "head",
+            "imageBytes": 223148,
+            "index": 3,
+            "layer": 40,
+            "length": 118,
+            "name": "head",
+            "parent": 2,
+            "pivotX": 0.5,
+            "pivotY": 0.86,
+            "width": 125.80661577608143,
+            "x": 0,
+            "y": -72
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "hat",
+            "imageBytes": 311011,
+            "index": 4,
+            "layer": 50,
+            "length": 80,
+            "name": "hat",
+            "parent": 3,
+            "pivotX": 0.5,
+            "pivotY": 0.7,
+            "width": 151.01123595505618,
+            "x": 0,
+            "y": -62
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "upper_arm_r",
+            "imageBytes": 53787,
+            "index": 5,
+            "layer": 17,
+            "length": 46,
+            "name": "upper_arm_r",
+            "parent": 2,
+            "pivotX": 0.5,
+            "pivotY": 0.12,
+            "width": 38.09049773755656,
+            "x": -38,
+            "y": -58
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "forearm_r",
+            "imageBytes": 58551,
+            "index": 6,
+            "layer": 16,
+            "length": 52,
+            "name": "forearm_r",
+            "parent": 5,
+            "pivotX": 0.5,
+            "pivotY": 0.1,
+            "width": 39.56078431372549,
+            "x": 0,
+            "y": 43
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "upper_arm_l",
+            "imageBytes": 46158,
+            "index": 7,
+            "layer": 27,
+            "length": 46,
+            "name": "upper_arm_l",
+            "parent": 2,
+            "pivotX": 0.5,
+            "pivotY": 0.12,
+            "width": 31.484444444444446,
+            "x": 38,
+            "y": -58
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "forearm_l",
+            "imageBytes": 59780,
+            "index": 8,
+            "layer": 26,
+            "length": 52,
+            "name": "forearm_l",
+            "parent": 7,
+            "pivotX": 0.5,
+            "pivotY": 0.1,
+            "width": 35.94117647058823,
+            "x": 0,
+            "y": 43
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "thigh_r",
+            "imageBytes": 92466,
+            "index": 9,
+            "layer": 9,
+            "length": 54,
+            "name": "thigh_r",
+            "parent": 1,
+            "pivotX": 0.5,
+            "pivotY": 0.08,
+            "width": 36.705882352941174,
+            "x": -17,
+            "y": 17
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "shin_r",
+            "imageBytes": 110645,
+            "index": 10,
+            "layer": 6,
+            "length": 62,
+            "name": "shin_r",
+            "parent": 9,
+            "pivotX": 0.5,
+            "pivotY": 0.1,
+            "width": 50.04575163398693,
+            "x": 0,
+            "y": 39
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "thigh_l",
+            "imageBytes": 88967,
+            "index": 11,
+            "layer": 10,
+            "length": 54,
+            "name": "thigh_l",
+            "parent": 1,
+            "pivotX": 0.5,
+            "pivotY": 0.08,
+            "width": 34.588235294117645,
+            "x": 17,
+            "y": 17
+          },
+          {
+            "angle": 0,
+            "color": [
+              0.5,
+              0.7,
+              0.9
+            ],
+            "id": "shin_l",
+            "imageBytes": 109803,
+            "index": 12,
+            "layer": 7,
+            "length": 62,
+            "name": "shin_l",
+            "parent": 11,
+            "pivotX": 0.5,
+            "pivotY": 0.1,
+            "width": 49.76051779935275,
+            "x": 0,
+            "y": 39
+          }
+        ],
+        "duration": 1,
+        "frames": [
+          {
+            "angles": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "label": "bind",
+            "time": 0
+          },
+          {
+            "angles": [
+              0,
+              0,
+              -1.5,
+              1.5,
+              1,
+              1.5,
+              0,
+              -1.5,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "label": "breathe",
+            "time": 0.5
+          },
+          {
+            "angles": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "label": "bind",
+            "time": 1
+          }
+        ],
+        "name": "lumio-farmer",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+        "version": 1,
+        "worldBones": [
+          {
+            "end": [
+              0,
+              41
+            ],
+            "id": "root",
+            "index": 0,
+            "origin": [
+              0,
+              40
+            ]
+          },
+          {
+            "end": [
+              0,
+              85
+            ],
+            "id": "pelvis",
+            "index": 1,
+            "origin": [
+              0,
+              35
+            ]
+          },
+          {
+            "end": [
+              0,
+              96
+            ],
+            "id": "torso",
+            "index": 2,
+            "origin": [
+              0,
+              14
+            ]
+          },
+          {
+            "end": [
+              0,
+              60
+            ],
+            "id": "head",
+            "index": 3,
+            "origin": [
+              0,
+              -58
+            ]
+          },
+          {
+            "end": [
+              0,
+              -40
+            ],
+            "id": "hat",
+            "index": 4,
+            "origin": [
+              0,
+              -120
+            ]
+          },
+          {
+            "end": [
+              -38,
+              2
+            ],
+            "id": "upper_arm_r",
+            "index": 5,
+            "origin": [
+              -38,
+              -44
+            ]
+          },
+          {
+            "end": [
+              -38,
+              51
+            ],
+            "id": "forearm_r",
+            "index": 6,
+            "origin": [
+              -38,
+              -1
+            ]
+          },
+          {
+            "end": [
+              38,
+              2
+            ],
+            "id": "upper_arm_l",
+            "index": 7,
+            "origin": [
+              38,
+              -44
+            ]
+          },
+          {
+            "end": [
+              38,
+              51
+            ],
+            "id": "forearm_l",
+            "index": 8,
+            "origin": [
+              38,
+              -1
+            ]
+          },
+          {
+            "end": [
+              -17,
+              106
+            ],
+            "id": "thigh_r",
+            "index": 9,
+            "origin": [
+              -17,
+              52
+            ]
+          },
+          {
+            "end": [
+              -17,
+              153
+            ],
+            "id": "shin_r",
+            "index": 10,
+            "origin": [
+              -17,
+              91
+            ]
+          },
+          {
+            "end": [
+              17,
+              106
+            ],
+            "id": "thigh_l",
+            "index": 11,
+            "origin": [
+              17,
+              52
+            ]
+          },
+          {
+            "end": [
+              17,
+              153
+            ],
+            "id": "shin_l",
+            "index": 12,
+            "origin": [
+              17,
+              91
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-2",
+      "command": "render",
+      "time": 0.0,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0000.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-2",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0000.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-3",
+      "command": "render",
+      "time": 0.06666666666666667,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0001.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-3",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0001.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-4",
+      "command": "render",
+      "time": 0.13333333333333333,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0002.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-4",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0002.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-5",
+      "command": "render",
+      "time": 0.2,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0003.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-5",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0003.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-6",
+      "command": "render",
+      "time": 0.26666666666666666,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0004.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-6",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0004.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-7",
+      "command": "render",
+      "time": 0.3333333333333333,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0005.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-7",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0005.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-8",
+      "command": "render",
+      "time": 0.4,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0006.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-8",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0006.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-9",
+      "command": "render",
+      "time": 0.4666666666666667,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0007.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-9",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0007.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-10",
+      "command": "render",
+      "time": 0.5333333333333333,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0008.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-10",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0008.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-11",
+      "command": "render",
+      "time": 0.6,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0009.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-11",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0009.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-12",
+      "command": "render",
+      "time": 0.6666666666666666,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0010.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-12",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0010.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-13",
+      "command": "render",
+      "time": 0.7333333333333333,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0011.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-13",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0011.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-14",
+      "command": "render",
+      "time": 0.8,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0012.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-14",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0012.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-15",
+      "command": "render",
+      "time": 0.8666666666666667,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0013.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-15",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0013.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-16",
+      "command": "render",
+      "time": 0.9333333333333333,
+      "output": "rigs/lumio/farmer/v001/preview/frames/0014.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-16",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 1,
+        "duration": 1,
+        "frames": 1,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/frames/0014.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  },
+  {
+    "request": {
+      "id": "sdk-17",
+      "command": "export_sheet",
+      "output": "rigs/lumio/farmer/v001/preview/sheet.png",
+      "expected_revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650",
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-17",
+      "ok": true,
+      "result": {
+        "cellHeight": 384,
+        "cellWidth": 384,
+        "columns": 6,
+        "duration": 1,
+        "frames": 24,
+        "output": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/preview/sheet.png",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  }
+]

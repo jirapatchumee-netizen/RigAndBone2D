@@ -1,0 +1,21 @@
+Use case: stylized-concept. EXPLODED PARTS SHEET for 2D bone animation of the EXACT farmer kid in reference 1, on a genuinely transparent background, 1536x1024, premium soft faux-3D toy style identical to the attached references: glossy soft vinyl/clay volumes, broad gentle highlights, fixed orthographic three-quarter view from above about 30 degrees, warm soft key light from the upper left, cool soft shadows, NO black outlines, NO ground or contact shadow, NO outer glow, NO halo, NO bloom, crisp clean silhouettes. ELEVEN separate body pieces of the same character, NO contact between pieces, generous empty transparent gutters (at least 5% of the image), everything fully inside the canvas. No text, labels, arrows, joint markers, borders, grids or watermarks. All pieces are drawn at ONE consistent scale, the same scale as the full-body farmer in reference 1 (do not enlarge some pieces). Each piece keeps the lighting of the assembled figure (light from upper left) and is fully painted, including the parts that would normally be hidden.
+Design to keep exactly: straw hat #E6BC62 with small white flower on a brown band; short messy brown hair; light skin #F6D5B1; cream/white short-sleeve shirt with rolled cuffs; sky-blue overalls #5B97C9 with two round honey-wood buttons and a chest pocket; bare hands; brown boots #7A4A26 with honey soles.
+The pieces (character's left = the viewer's right side in the front view of reference 1). Limbs are drawn straight, hanging vertically, in a neutral relaxed pose, in the same three-quarter view as reference 1. At every joint the piece has a rounded end that extends about 15% beyond the joint, painted in full, so it can tuck under the neighbouring piece without a gap when rotated:
+ROW 1 (y 2-36%):
+ - x 2-44%: HAT, the straw hat alone seen exactly as it sits on the head in reference 1 (brim, crown, band, flower), nothing inside it
+ - x 46-70%: TORSO, neck and collar, white shirt, overall bib with chest pocket and buttons and both straps, WITHOUT head, WITHOUT arms (shoulders are smooth rounded stubs), WITHOUT the legs (bottom edge rounded, ends at the waist)
+ - x 72-98%: PELVIS, the overall waist/hip/seat section only, from the waistband down to just above the thighs, WITHOUT legs
+ROW 2 (y 38-66%), four arm pieces left to right:
+ - x 2-25%: RIGHT UPPER ARM (character's right = viewer's left): white shirt sleeve with rolled cuff, upper end rounded at the shoulder, lower end rounded at the elbow
+ - x 27-50%: RIGHT FOREARM WITH HAND: bare forearm, relaxed open hand, rounded at the elbow end
+ - x 52-75%: LEFT UPPER ARM (character's left = viewer's right), same as the right one
+ - x 77-98%: LEFT FOREARM WITH HAND, same as the right one
+ROW 3 (y 68-98%), four leg pieces left to right:
+ - x 2-25%: RIGHT THIGH: blue overall leg from hip to the knee, rounded at both ends
+ - x 27-50%: RIGHT SHIN WITH BOOT: rolled blue cuff, brown boot with sole, top end rounded at the knee
+ - x 52-75%: LEFT THIGH, same as the right one
+ - x 77-98%: LEFT SHIN WITH BOOT, same as the right one
+Nothing else in the image: no head, no faces, no props, no background.
+
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/Assets/Source/chr_f1_farmer/v001/parts/char_farmer_hero_v01.png
+Reference attached: /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/Assets/Inbox/S0-style-anchor/master.png

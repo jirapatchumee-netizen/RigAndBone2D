@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "pack": "CHR-F1-farmer",
+  "sheetSize": [1536, 1024],
+  "objects": [
+    {"id": "char_farmer_hero_v01",           "region": [1, 2, 42, 98]},
+    {"id": "char_farmer_head_happy_v01",     "region": [42, 2, 71, 50]},
+    {"id": "char_farmer_head_blink_v01",     "region": [71, 2, 99, 50]},
+    {"id": "char_farmer_head_talk_v01",      "region": [42, 50, 71, 98]},
+    {"id": "char_farmer_head_surprised_v01", "region": [71, 50, 99, 98]}
+  ]
+}

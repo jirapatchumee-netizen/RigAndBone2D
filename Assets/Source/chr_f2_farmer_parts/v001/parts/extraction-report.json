@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "source": "Assets/Inbox/CHR-F2-farmer-parts/master.png",
+  "sourceSHA256": "6524c75018990af41000937b29cfde9781980d833f0d944dd3b89644ca615239",
+  "sheetSize": [
+    1536,
+    1024
+  ],
+  "alphaFloor": 48,
+  "objects": {
+    "char_farmer_part_hat_v01": {
+      "region": [
+        2,
+        2,
+        45,
+        36
+      ],
+      "blobCount": 1,
+      "size": [
+        672,
+        356
+      ],
+      "faintAlphaRatioBefore": 0.0453,
+      "faintAlphaRatioAfter": 0.0034,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_torso_v01": {
+      "region": [
+        45,
+        2,
+        71,
+        36
+      ],
+      "blobCount": 1,
+      "size": [
+        330,
+        353
+      ],
+      "faintAlphaRatioBefore": 0.0475,
+      "faintAlphaRatioAfter": 0.0038,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_pelvis_v01": {
+      "region": [
+        71,
+        2,
+        99,
+        36
+      ],
+      "blobCount": 1,
+      "size": [
+        323,
+        293
+      ],
+      "faintAlphaRatioBefore": 0.063,
+      "faintAlphaRatioAfter": 0.0049,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_upper_arm_r_v01": {
+      "region": [
+        1,
+        37,
+        26,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        183,
+        221
+      ],
+      "faintAlphaRatioBefore": 0.0873,
+      "faintAlphaRatioAfter": 0.0074,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_forearm_r_v01": {
+      "region": [
+        26,
+        37,
+        51,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        194,
+        255
+      ],
+      "faintAlphaRatioBefore": 0.1088,
+      "faintAlphaRatioAfter": 0.0097,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_upper_arm_l_v01": {
+      "region": [
+        51,
+        37,
+        76,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        154,
+        225
+      ],
+      "faintAlphaRatioBefore": 0.0979,
+      "faintAlphaRatioAfter": 0.008,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_forearm_l_v01": {
+      "region": [
+        76,
+        37,
+        99,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        188,
+        272
+      ],
+      "faintAlphaRatioBefore": 0.1158,
+      "faintAlphaRatioAfter": 0.0108,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_thigh_r_v01": {
+      "region": [
+        1,
+        67,
+        26,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        208,
+        306
+      ],
+      "faintAlphaRatioBefore": 0.0576,
+      "faintAlphaRatioAfter": 0.0058,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_shin_r_v01": {
+      "region": [
+        26,
+        67,
+        51,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        247,
+        306
+      ],
+      "faintAlphaRatioBefore": 0.0602,
+      "faintAlphaRatioAfter": 0.0057,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_thigh_l_v01": {
+      "region": [
+        51,
+        67,
+        76,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        196,
+        306
+      ],
+      "faintAlphaRatioBefore": 0.0518,
+      "faintAlphaRatioAfter": 0.0059,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_shin_l_v01": {
+      "region": [
+        76,
+        67,
+        99,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        248,
+        309
+      ],
+      "faintAlphaRatioBefore": 0.0644,
+      "faintAlphaRatioAfter": 0.006,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    }
+  },
+  "unassignedBlobs": [],
+  "ok": true
+}

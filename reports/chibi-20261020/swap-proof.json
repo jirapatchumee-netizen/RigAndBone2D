@@ -1,0 +1,29 @@
+{
+  "changedBone": "hand-front",
+  "onlyTargetImageChanged": true,
+  "renderDifferenceBounds": [
+    209,
+    221,
+    238,
+    254
+  ],
+  "revision": "2506447d6f9aaea5bef03eb20ed8f1db94aa4d68587263df1c8a2fabb7133481",
+  "sourceSHA256": "cb69cf4309dab401db98f6db7ef8b15d1be3982f302f963a7d00519fa71d95b3",
+  "note": "Opposite-hand artwork is used only to demonstrate replacement; this is not a newly authored equipment variant.",
+  "restToAnimatedRGBDifferenceBounds": [
+    140,
+    85,
+    238,
+    256
+  ],
+  "restToAnimatedComparison": {
+    "images": [
+      "preview/frames/0000.png",
+      "preview/frames/0006.png"
+    ],
+    "times": [
+      0,
+      0.5
+    ]
+  }
+}

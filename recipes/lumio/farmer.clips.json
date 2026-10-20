@@ -1,0 +1,78 @@
+{
+ "_help": "Edit only this file to add/change animations. Times in seconds, angles in degrees (positive = clockwise on screen). 'pose' lists only bones that differ from the bind pose (angles are ABSOLUTE local angles, rest = 0). Every frame starts from rest, it does not inherit the previous keyframe. A looping clip needs the SAME pose at its start and end times. Clip length * fps must be a whole number (fps=15). Clips must not overlap in time. Keep each clip to a few keyframes; rely on interpolation.",
+ "fps": 15,
+ "renderScale": 0.75,
+ "frames": [
+  {
+   "time": 0,
+   "label": "idle bind",
+   "pose": {}
+  },
+  {
+   "time": 0.5,
+   "label": "idle breathe",
+   "pose": {
+    "torso": -1,
+    "head": 1,
+    "arm_r": 1,
+    "arm_l": -1
+   }
+  },
+  {
+   "time": 1,
+   "label": "idle bind",
+   "pose": {}
+  },
+  {
+   "time": 1.0666666667,
+   "label": "walk contact",
+   "pose": {}
+  },
+  {
+   "time": 1.2666666667,
+   "label": "walk swing A",
+   "pose": {
+    "arm_r": 30,
+    "arm_l": -30,
+    "leg_r": -25,
+    "leg_l": 25
+   }
+  },
+  {
+   "time": 1.4666666667,
+   "label": "walk passing",
+   "pose": {}
+  },
+  {
+   "time": 1.6666666667,
+   "label": "walk swing B",
+   "pose": {
+    "arm_r": -30,
+    "arm_l": 30,
+    "leg_r": 25,
+    "leg_l": -25
+   }
+  },
+  {
+   "time": 1.8666666667,
+   "label": "walk contact",
+   "pose": {}
+  }
+ ],
+ "clips": [
+  {
+   "name": "idle",
+   "start": 0,
+   "end": 1,
+   "loop": true,
+   "events": []
+  },
+  {
+   "name": "walk",
+   "start": 1.0666666667,
+   "end": 1.8666666667,
+   "loop": true,
+   "events": []
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "pack": "CHR-F2b-farmer-parts-fix",
+ "version": "v001",
+ "sourceMaster": "Assets/Inbox/CHR-F2b-farmer-parts-fix/master.png",
+ "sha256": "825d4d45c351b814eac825ca543bc0670c0c15652caabc43a9e821341e53e6a7",
+ "extractor": "extract_sheet.py (default gap 2)",
+ "supersedes": "chr_f2_farmer_parts/v001",
+ "status": "owner review pending"
+}

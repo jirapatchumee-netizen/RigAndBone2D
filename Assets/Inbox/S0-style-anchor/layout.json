@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "pack": "S0-style-anchor",
+  "sheetSize": [1536, 1024],
+  "note": "Regions are the prompt cells widened by 2% so generator drift is tolerated; assignment is by blob centroid.",
+  "objects": [
+    {"id": "crop_carrot_stage3_soft3d", "region": [2, 2, 34, 49]},
+    {"id": "env_tree_apple_a_v01",      "region": [34, 2, 66, 49]},
+    {"id": "prop_fence_wood_a_v01",     "region": [66, 2, 98, 49]},
+    {"id": "prop_fence_wood_b_v01",     "region": [2, 51, 34, 98]},
+    {"id": "prop_crate_tomato_v01",     "region": [34, 51, 66, 98]},
+    {"id": "env_flowers_daisy_a_v01",   "region": [66, 51, 98, 98]}
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "name": "Chibi cutout - joint review",
+  "duration": 2,
+  "bones": [
+    {
+      "id": "root",
+      "visible": false,
+      "length": 1,
+      "width": 1
+    },
+    {
+      "id": "pelvis",
+      "parent": "root",
+      "image": "../../examples/chibi-20261020/parts-v2/pelvis.png",
+      "x": 0,
+      "y": 23,
+      "length": 35.76,
+      "width": 57.36,
+      "pivotX": 0.5,
+      "pivotY": 0.12,
+      "angle": 0,
+      "layer": 5
+    },
+    {
+      "id": "torso",
+      "parent": "root",
+      "image": "../../examples/chibi-20261020/parts-v2/torso.png",
+      "x": 0,
+      "y": -26,
+      "length": 56.64,
+      "width": 45.12,
+      "pivotX": 0.5,
+      "pivotY": 0.15,
+      "angle": 0,
+      "layer": 6
+    },
+    {
+      "id": "neck",
+      "parent": "torso",
+      "image": "../../examples/chibi-20261020/parts-v2/neck.png",
+      "x": 0,
+      "y": -9,
+      "length": 21.599999999999998,
+      "width": 25.439999999999998,
+      "pivotX": 0.5,
+      "pivotY": 0.22,
+      "angle": 0,
+      "layer": 7
+    },
+    {
+      "id": "head",
+      "parent": "neck",
+      "image": "../../examples/chibi-20261020/parts-v2/head.png",
+      "x": 0,
+      "y": -1,
+      "length": 77.52,
+      "width": 83.75999999999999,
+      "pivotX": 0.61,
+      "pivotY": 0.91,
+      "angle": 0,
+      "layer": 10
+    },
+    {
+      "id": "upper-arm-back",
+      "parent": "torso",
+      "image": "../../examples/chibi-20261020/parts-v2/upper-arm-back.png",
+      "x": -17,
+      "y": 2,
+      "length": 42.96,
+      "width": 28.56,
+      "pivotX": 0.72,
+      "pivotY": 0.14,
+      "angle": 0,
+      "layer": 1
+    },
+    {
+      "id": "forearm-back",
+      "parent": "upper-arm-back",
+      "image": "../../examples/chibi-20261020/parts-v2/forearm-back.png",
+      "x": -12,
+      "y": 30,
+      "length": 35.519999999999996,
+      "width": 20.4,
+      "pivotX": 0.5,
+      "pivotY": 0.12,
+      "angle": 0,
+      "layer": 2
+    },
+    {
+      "id": "hand-back",
+      "parent": "forearm-back",
+      "image": "../../examples/chibi-20261020/parts-v2/hand-back.png",
+      "x": -1,
+      "y": 29,
+      "length": 30.72,
+      "width": 28.799999999999997,
+      "pivotX": 0.43,
+      "pivotY": 0.1,
+      "angle": 0,
+      "layer": 3
+    },
+    {
+      "id": "upper-arm-front",
+      "parent": "torso",
+      "image": "../../examples/chibi-20261020/parts-v2/upper-arm-front.png",
+      "x": 18,
+      "y": 2,
+      "length": 42.72,
+      "width": 30.959999999999997,
+      "pivotX": 0.28,
+      "pivotY": 0.14,
+      "angle": 0,
+      "layer": 8
+    },
+    {
+      "id": "forearm-front",
+      "parent": "upper-arm-front",
+      "image": "../../examples/chibi-20261020/parts-v2/forearm-front.png",
+      "x": 12,
+      "y": 30,
+      "length": 35.28,
+      "width": 20.16,
+      "pivotX": 0.5,
+      "pivotY": 0.12,
+      "angle": 0,
+      "layer": 9
+    },
+    {
+      "id": "hand-front",
+      "parent": "forearm-front",
+      "image": "../../examples/chibi-20261020/parts-v2/hand-front.png",
+      "x": 1,
+      "y": 29,
+      "length": 31.2,
+      "width": 28.08,
+      "pivotX": 0.58,
+      "pivotY": 0.1,
+      "angle": 0,
+      "layer": 10
+    },
+    {
+      "id": "thigh-back",
+      "parent": "pelvis",
+      "image": "../../examples/chibi-20261020/parts-v2/thigh-back.png",
+      "x": -14,
+      "y": 25,
+      "length": 54.72,
+      "width": 33.36,
+      "pivotX": 0.6,
+      "pivotY": 0.13,
+      "angle": 0,
+      "layer": 2
+    },
+    {
+      "id": "shin-back",
+      "parent": "thigh-back",
+      "image": "../../examples/chibi-20261020/parts-v2/shin-back.png",
+      "x": -9,
+      "y": 43,
+      "length": 49.68,
+      "width": 26.64,
+      "pivotX": 0.58,
+      "pivotY": 0.1,
+      "angle": 0,
+      "layer": 3
+    },
+    {
+      "id": "foot-back",
+      "parent": "shin-back",
+      "image": "../../examples/chibi-20261020/parts-v2/foot-back.png",
+      "x": 0,
+      "y": 43,
+      "length": 37.44,
+      "width": 37.44,
+      "pivotX": 0.52,
+      "pivotY": 0.12,
+      "angle": 0,
+      "layer": 4
+    },
+    {
+      "id": "thigh-front",
+      "parent": "pelvis",
+      "image": "../../examples/chibi-20261020/parts-v2/thigh-front.png",
+      "x": 15,
+      "y": 25,
+      "length": 54.72,
+      "width": 32.879999999999995,
+      "pivotX": 0.4,
+      "pivotY": 0.13,
+      "angle": 0,
+      "layer": 3
+    },
+    {
+      "id": "shin-front",
+      "parent": "thigh-front",
+      "image": "../../examples/chibi-20261020/parts-v2/shin-front.png",
+      "x": 10,
+      "y": 43,
+      "length": 49.68,
+      "width": 26.88,
+      "pivotX": 0.45,
+      "pivotY": 0.1,
+      "angle": 0,
+      "layer": 4
+    },
+    {
+      "id": "foot-front",
+      "parent": "shin-front",
+      "image": "../../examples/chibi-20261020/parts-v2/foot-front.png",
+      "x": 0,
+      "y": 43,
+      "length": 36.0,
+      "width": 46.8,
+      "pivotX": 0.34,
+      "pivotY": 0.12,
+      "angle": 0,
+      "layer": 5
+    }
+  ],
+  "frames": [
+    {
+      "time": 0,
+      "label": "rest",
+      "pose": {}
+    },
+    {
+      "time": 0.5,
+      "label": "breathe-left",
+      "pose": {
+        "torso": -1.5,
+        "head": 2,
+        "upper-arm-front": -4,
+        "forearm-front": 6,
+        "hand-front": -3,
+        "upper-arm-back": 3
+      }
+    },
+    {
+      "time": 1,
+      "label": "rest",
+      "pose": {}
+    },
+    {
+      "time": 1.5,
+      "label": "breathe-right",
+      "pose": {
+        "torso": 1.5,
+        "head": -2,
+        "upper-arm-front": 3,
+        "forearm-front": -4,
+        "upper-arm-back": -3
+      }
+    },
+    {
+      "time": 2,
+      "label": "rest",
+      "pose": {}
+    }
+  ]
+}

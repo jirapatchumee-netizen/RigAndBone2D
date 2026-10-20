@@ -1,0 +1,14 @@
+.build/
+dist/
+scratch/
+.DS_Store
+__pycache__/
+*.pyc
+.*.lock
+.godot/
+node_modules/
+web/node_modules/
+web/dist/
+.vite/
+references/autosprite.app/
+references/rigandbone2d_reference.mp4

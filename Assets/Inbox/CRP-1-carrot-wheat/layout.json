@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "pack": "CRP-1-carrot-wheat",
+  "sheetSize": [1536, 1024],
+  "note": "4x2 grid; regions widened so generator drift is tolerated; assignment is by blob centroid. Stage index 3 = ripe (matches Content stageCount 4).",
+  "objects": [
+    {"id": "crop_carrot_stage0_v01", "region": [0, 2, 24, 49]},
+    {"id": "crop_carrot_stage1_v01", "region": [24, 2, 49, 49]},
+    {"id": "crop_carrot_stage2_v01", "region": [49, 2, 75, 49]},
+    {"id": "crop_carrot_stage3_v01", "region": [75, 2, 100, 49]},
+    {"id": "crop_wheat_stage0_v01",  "region": [0, 51, 24, 98]},
+    {"id": "crop_wheat_stage1_v01",  "region": [24, 51, 49, 98]},
+    {"id": "crop_wheat_stage2_v01",  "region": [49, 51, 75, 98]},
+    {"id": "crop_wheat_stage3_v01",  "region": [75, 51, 100, 98]}
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1-s0",
+  "createdBy": "Claude C-02, 2026-10-01",
+  "source": "median-cut quantization + patch sampling of LumioValley/Reference/Art_Style_Soft_3D_Toy_Reference.png and UI_Style_Soft_3D_Toy_Reference.png; first draft by eye was corrected (grass is yellow-lime not mint; water is teal-cyan; roofs are terracotta red)",
+  "status": "S0 (ASSET-STYLE-001) is the style anchor: ramps marked sampled-S0 override the reference-derived values of v1.0-candidate (kept in palette_v1_candidate_0.json)",
+  "rules": {
+    "darkestAllowed": "no outline; crevice/eye shadow may reach ~#120000 but <= 5% of opaque pixels per asset may be darker than avg-channel 46 (measured S0: 0.5-4.2%)",
+    "forbidden": [
+      "#000000 as outline or fill"
+    ],
+    "ramp": "shadow/base/highlight; shadows shift cool (blue-green), highlights shift warm",
+    "keyLight": "upper-left ~45deg warm #FFF4D6",
+    "outline": "none"
+  },
+  "ramps": {
+    "grass": {
+      "shadow": "#6A9A2E",
+      "base": "#A9C93F",
+      "highlight": "#D5E26B",
+      "role": "meadow ground, lawn tops",
+      "confidence": "sampled"
+    },
+    "foliage": {
+      "shadow": "#35731E",
+      "base": "#7FBE42",
+      "highlight": "#A9DB4E",
+      "role": "tree canopy, bushes, leaves, crop tops",
+      "confidence": "sampled-S0"
+    },
+    "foliage_teal": {
+      "shadow": "#236B6E",
+      "base": "#328F8D",
+      "highlight": "#62B897",
+      "role": "pine trees, cool accent foliage",
+      "confidence": "sampled"
+    },
+    "water": {
+      "shadow": "#2A8FB8",
+      "base": "#41B0D4",
+      "highlight": "#8FDDEB",
+      "role": "pond, river, waterfall",
+      "confidence": "sampled"
+    },
+    "dirt_path": {
+      "shadow": "#D2A872",
+      "base": "#E7C892",
+      "highlight": "#F5E0BB",
+      "role": "paths, sand, plaza floor",
+      "confidence": "sampled"
+    },
+    "soil": {
+      "shadow": "#5A3518",
+      "base": "#8A5A2E",
+      "highlight": "#B07A45",
+      "role": "tilled plots",
+      "confidence": "sampled-S0 approx"
+    },
+    "wood": {
+      "shadow": "#6E431F",
+      "base": "#B96C36",
+      "highlight": "#F6C379",
+      "role": "fences, crates, signs, bridge",
+      "confidence": "sampled-S0"
+    },
+    "roof_red": {
+      "shadow": "#AE3D45",
+      "base": "#DB514E",
+      "highlight": "#F27E6B",
+      "role": "roofs, barn, awning red",
+      "confidence": "sampled"
+    },
+    "cream": {
+      "shadow": "#E6CFA8",
+      "base": "#F5DAAF",
+      "highlight": "#FCEFD6",
+      "role": "walls, belly fur, UI cards",
+      "confidence": "sampled"
+    },
+    "stone": {
+      "shadow": "#8C8086",
+      "base": "#BDB1AD",
+      "highlight": "#E0D6D0",
+      "role": "rocks, well, fountain, pedestals",
+      "confidence": "sampled"
+    },
+    "gold": {
+      "shadow": "#D99A1E",
+      "base": "#F0B429",
+      "highlight": "#FFD96A",
+      "role": "wheat, sunflower, coins",
+      "confidence": "sampled"
+    },
+    "orange": {
+      "shadow": "#C75129",
+      "base": "#E47631",
+      "highlight": "#F1A14A",
+      "role": "carrot, pumpkin, orange accents",
+      "confidence": "sampled-S0"
+    },
+    "red_fruit": {
+      "shadow": "#A81C12",
+      "base": "#DB2618",
+      "highlight": "#FF7A63",
+      "role": "tomato, apple, strawberry",
+      "confidence": "sampled-S0 (highlight estimated)"
+    },
+    "skin": {
+      "shadow": "#E8B48C",
+      "base": "#F6D5B1",
+      "highlight": "#FFE8D0",
+      "role": "farmer skin",
+      "confidence": "estimated"
+    },
+    "overalls_blue": {
+      "shadow": "#3E6D9A",
+      "base": "#5B97C9",
+      "highlight": "#9CC9EA",
+      "role": "farmer overalls",
+      "confidence": "estimated"
+    },
+    "straw": {
+      "shadow": "#C99A45",
+      "base": "#E6BC62",
+      "highlight": "#F5DC8F",
+      "role": "straw hat, hay",
+      "confidence": "estimated"
+    },
+    "ui_brown": {
+      "shadow": "#4B3725",
+      "base": "#8A6848",
+      "highlight": "#A88664",
+      "role": "UI wood panels, tab headers, text dark",
+      "confidence": "provisional"
+    },
+    "ui_green": {
+      "shadow": "#3B815C",
+      "base": "#77A161",
+      "highlight": "#A8BB73",
+      "role": "UI primary button (provisional: re-sample from UI ref)",
+      "confidence": "provisional"
+    },
+    "ui_cyan": {
+      "shadow": "#3D9B90",
+      "base": "#6ACDD5",
+      "highlight": "#BFEFF2",
+      "role": "gems, info accents",
+      "confidence": "provisional"
+    },
+    "petal_white": {
+      "shadow": "#DCCFB0",
+      "base": "#F6EDD0",
+      "highlight": "#FFFDF2",
+      "role": "daisy petals, sheep wool, white details",
+      "confidence": "sampled-S0 (shadow/highlight estimated)"
+    }
+  }
+}

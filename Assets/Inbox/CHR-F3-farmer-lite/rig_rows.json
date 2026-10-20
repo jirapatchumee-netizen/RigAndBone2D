@@ -1,0 +1,50 @@
+[
+ {
+  "id": "body",
+  "parent": "root",
+  "height_units": 119.34,
+  "pivotX": 0.4444,
+  "pivotY": 0.4946,
+  "world": [
+   0.0,
+   40.0
+  ],
+  "layer": 20
+ },
+ {
+  "id": "arm_r",
+  "parent": "body",
+  "height_units": 65.26,
+  "pivotX": 0.7744,
+  "pivotY": 0.2629,
+  "world": [
+   -26.0,
+   8.8
+  ],
+  "layer": 17
+ },
+ {
+  "id": "arm_l",
+  "parent": "body",
+  "height_units": 62.66,
+  "pivotX": 0.216,
+  "pivotY": 0.2531,
+  "world": [
+   35.62,
+   4.9
+  ],
+  "layer": 27
+ },
+ {
+  "id": "hat",
+  "parent": "head",
+  "height_units": 98.28,
+  "pivotX": 0.4952,
+  "pivotY": 0.7937,
+  "world": [
+   -9.1,
+   -48.4
+  ],
+  "layer": 50
+ }
+]

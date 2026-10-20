@@ -1,0 +1,46 @@
+{
+ "schemaVersion": 1,
+ "pack": "CHR-F3-farmer-lite",
+ "sheetSize": [
+  1536,
+  1024
+ ],
+ "objects": [
+  {
+   "id": "char_farmer_part_body_v01",
+   "region": [
+    3.0,
+    3.0,
+    36.7,
+    61.9
+   ]
+  },
+  {
+   "id": "char_farmer_part_arm_r_v01",
+   "region": [
+    3.0,
+    61.8,
+    21.6,
+    96.8
+   ]
+  },
+  {
+   "id": "char_farmer_part_arm_l_v01",
+   "region": [
+    21.6,
+    61.8,
+    37.2,
+    95.6
+   ]
+  },
+  {
+   "id": "char_farmer_part_hat_v01",
+   "region": [
+    36.6,
+    3.0,
+    90.8,
+    52.5
+   ]
+  }
+ ]
+}

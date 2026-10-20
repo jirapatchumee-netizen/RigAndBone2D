@@ -1,0 +1,40 @@
+[
+  {
+    "request": {
+      "id": "sdk-1",
+      "command": "apply_recipe",
+      "recipe": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/recipes/lumio/farmer.rigrecipe.json",
+      "replace": false,
+      "dry_run": false,
+      "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d"
+    },
+    "response": {
+      "id": "sdk-1",
+      "ok": true,
+      "result": {
+        "assets": 12,
+        "boneIDs": [
+          "root",
+          "pelvis",
+          "torso",
+          "head",
+          "hat",
+          "upper_arm_r",
+          "forearm_r",
+          "upper_arm_l",
+          "forearm_l",
+          "thigh_r",
+          "shin_r",
+          "thigh_l",
+          "shin_l"
+        ],
+        "bones": 13,
+        "dryRun": false,
+        "duration": 1,
+        "keyframes": 3,
+        "project": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/RigAndBone2D/rigs/lumio/farmer/v001/Farmer.rig2d",
+        "revision": "bb6a902da022ede284a0a1f59e85db02d99f7d8dc665fb721d604a1e636f8650"
+      }
+    }
+  }
+]

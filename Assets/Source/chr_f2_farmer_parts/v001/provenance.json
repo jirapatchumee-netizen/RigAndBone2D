@@ -1,0 +1,8 @@
+{
+ "pack": "CHR-F2-farmer-parts",
+ "version": "v001",
+ "sourceMaster": "Assets/Inbox/CHR-F2-farmer-parts/master.png",
+ "sha256": "6524c75018990af41000937b29cfde9781980d833f0d944dd3b89644ca615239",
+ "extractor": "extract_sheet.py (default gap 2)",
+ "status": "awaiting QC/owner review"
+}

@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "source": "/Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/Game Magic Idle /Asset/Chibi_Anime_Rigging_Parts_Sheet.png",
+  "sourceSHA256": "cb69cf4309dab401db98f6db7ef8b15d1be3982f302f963a7d00519fa71d95b3",
+  "partCount": 16,
+  "parts": {
+    "head": {
+      "spec": {
+        "id": "head",
+        "rect": [
+          540,
+          5,
+          910,
+          347
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 349,
+      "height": 323
+    },
+    "neck": {
+      "spec": {
+        "id": "neck",
+        "rect": [
+          918,
+          235,
+          1038,
+          344
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 106,
+      "height": 90
+    },
+    "torso": {
+      "spec": {
+        "id": "torso",
+        "rect": [
+          664,
+          347,
+          873,
+          591
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 188,
+      "height": 236
+    },
+    "pelvis": {
+      "spec": {
+        "id": "pelvis",
+        "rect": [
+          650,
+          596,
+          907,
+          756
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 239,
+      "height": 149
+    },
+    "upper-arm-back": {
+      "spec": {
+        "id": "upper-arm-back",
+        "rect": [
+          500,
+          340,
+          637,
+          529
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 119,
+      "height": 179
+    },
+    "forearm-back": {
+      "spec": {
+        "id": "forearm-back",
+        "rect": [
+          480,
+          526,
+          582,
+          681
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 91,
+      "height": 155
+    },
+    "hand-back": {
+      "spec": {
+        "id": "hand-back",
+        "rect": [
+          480,
+          681,
+          616,
+          809
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 120,
+      "height": 121
+    },
+    "upper-arm-front": {
+      "spec": {
+        "id": "upper-arm-front",
+        "rect": [
+          919,
+          346,
+          1068,
+          530
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 129,
+      "height": 178
+    },
+    "forearm-front": {
+      "spec": {
+        "id": "forearm-front",
+        "rect": [
+          993,
+          524,
+          1095,
+          681
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 86,
+      "height": 154
+    },
+    "hand-front": {
+      "spec": {
+        "id": "hand-front",
+        "rect": [
+          960,
+          681,
+          1095,
+          808
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 117,
+      "height": 123
+    },
+    "thigh-back": {
+      "spec": {
+        "id": "thigh-back",
+        "rect": [
+          615,
+          743,
+          766,
+          977
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 139,
+      "height": 228
+    },
+    "thigh-front": {
+      "spec": {
+        "id": "thigh-front",
+        "rect": [
+          818,
+          741,
+          965,
+          978
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 137,
+      "height": 228
+    },
+    "shin-back": {
+      "spec": {
+        "id": "shin-back",
+        "rect": [
+          573,
+          977,
+          697,
+          1188
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 111,
+      "height": 207
+    },
+    "shin-front": {
+      "spec": {
+        "id": "shin-front",
+        "rect": [
+          880,
+          977,
+          1008,
+          1188
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 112,
+      "height": 207
+    },
+    "foot-back": {
+      "spec": {
+        "id": "foot-back",
+        "rect": [
+          515,
+          1186,
+          689,
+          1358
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 156,
+      "height": 156
+    },
+    "foot-front": {
+      "spec": {
+        "id": "foot-front",
+        "rect": [
+          899,
+          1186,
+          1109,
+          1348
+        ],
+        "isolate": "largest_alpha"
+      },
+      "width": 195,
+      "height": 150
+    }
+  },
+  "dryRun": false
+}

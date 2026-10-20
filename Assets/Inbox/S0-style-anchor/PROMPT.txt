@@ -1,0 +1,14 @@
+REFERENCE IMAGES (attach all; say in DONE.md that you did):
+1. /Users/macminim4pro/FrostNova/FrostNovaWorkspace/projects/LumioValley/Reference/Art_Style_Soft_3D_Toy_Reference.png  (match its rendering style, materials, colors and lighting exactly; do NOT copy its composition, camera framing or objects; the output layout is the 3x2 grid below)
+
+PROMPT (paste exactly):
+Use case: stylized-concept. ORIGINAL cozy mobile farm-simulation ENVIRONMENT PROP SHEET on a genuinely transparent background, 1536x1024, premium soft faux-3D toy style: rounded vinyl/clay volumes, broad gentle highlights, fixed orthographic three-quarter view from above about 30 degrees, warm soft key light from the upper left, cool soft shadows, NO black outlines, NO ground shadow or contact shadow, NO outer glow, NO halo, NO bloom around any object, crisp clean silhouettes. Bright pastel-vibrant palette: leaf green, cream, sky blue, warm red, honey wood, orange. SIX clearly separated complete objects in a 3-column by 2-row layout, every object fully inside its own cell with generous empty transparent gutters (at least 6% of the image) and NO contact between objects. All six must look like they were made by the same artist in the same render. No text, labels, borders, grids or watermarks.
+ROW 1 (top, y 4-47%):
+ - LEFT cell x 4-32%: a soft brown tilled dirt plot, rounded-square mound, with THREE fat ripe orange carrots sticking up out of it, each with lush leafy green tops (harvest-ready crop).
+ - MIDDLE cell x 36-64%: a round bushy apple tree, sturdy short trunk, dense soft green canopy, about ten shiny red apples.
+ - RIGHT cell x 68-96%: a straight section of chunky rounded honey-wood fence (three posts, two rails) running diagonally from upper-left to lower-right.
+ROW 2 (bottom, y 53-96%):
+ - LEFT cell x 4-32%: the SAME style of fence section (same posts, same wood, same size) running the OPPOSITE diagonal, from upper-right to lower-left.
+ - MIDDLE cell x 36-64%: an open rounded wooden crate overflowing with shiny red tomatoes.
+ - RIGHT cell x 68-96%: a small cluster of white daisy flowers with yellow centers and five broad rounded mint-green leaves, short stems, no pot.
+Objects must be original designs, cute and chunky, readable at tiny mobile sizes (64 px). No characters, no text.

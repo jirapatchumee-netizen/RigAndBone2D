@@ -1,0 +1,262 @@
+{
+  "bones" : [
+    {
+      "angle" : 0,
+      "color" : [
+        0.25,
+        0.43,
+        0.65
+      ],
+      "layer" : 3,
+      "length" : 8,
+      "name" : "Root \/ Hip",
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 22,
+      "x" : 0,
+      "y" : 0
+    },
+    {
+      "angle" : 180,
+      "color" : [
+        0.25,
+        0.43,
+        0.65
+      ],
+      "layer" : 4,
+      "length" : 85,
+      "name" : "Torso",
+      "parent" : 0,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 64,
+      "x" : 0,
+      "y" : 0
+    },
+    {
+      "angle" : 0,
+      "color" : [
+        0.96,
+        0.74,
+        0.46
+      ],
+      "layer" : 8,
+      "length" : 58,
+      "name" : "Head",
+      "parent" : 1,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 68,
+      "x" : 0,
+      "y" : 85
+    },
+    {
+      "angle" : 145,
+      "color" : [
+        0.96,
+        0.74,
+        0.46
+      ],
+      "layer" : 1,
+      "length" : 48,
+      "name" : "Back upper arm",
+      "parent" : 1,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 23,
+      "x" : -30,
+      "y" : 16
+    },
+    {
+      "angle" : -20,
+      "color" : [
+        0.4,
+        0.26,
+        0.19
+      ],
+      "layer" : 2,
+      "length" : 44,
+      "name" : "Back forearm",
+      "parent" : 3,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 20,
+      "x" : 0,
+      "y" : 48
+    },
+    {
+      "angle" : 215,
+      "color" : [
+        0.96,
+        0.74,
+        0.46
+      ],
+      "layer" : 6,
+      "length" : 48,
+      "name" : "Front upper arm",
+      "parent" : 1,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 23,
+      "x" : 30,
+      "y" : 16
+    },
+    {
+      "angle" : -35,
+      "color" : [
+        0.4,
+        0.26,
+        0.19
+      ],
+      "layer" : 7,
+      "length" : 44,
+      "name" : "Front forearm",
+      "parent" : 5,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 20,
+      "x" : 0,
+      "y" : 48
+    },
+    {
+      "angle" : -100,
+      "color" : [
+        0.73,
+        0.86,
+        0.95
+      ],
+      "layer" : 9,
+      "length" : 98,
+      "name" : "Sword",
+      "parent" : 6,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 15,
+      "x" : 0,
+      "y" : 44
+    },
+    {
+      "angle" : 20,
+      "color" : [
+        0.25,
+        0.43,
+        0.65
+      ],
+      "layer" : 0,
+      "length" : 55,
+      "name" : "Back thigh",
+      "parent" : 0,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 28,
+      "x" : -18,
+      "y" : 0
+    },
+    {
+      "angle" : -15,
+      "color" : [
+        0.4,
+        0.26,
+        0.19
+      ],
+      "layer" : 1,
+      "length" : 55,
+      "name" : "Back shin",
+      "parent" : 8,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 25,
+      "x" : 0,
+      "y" : 55
+    },
+    {
+      "angle" : -20,
+      "color" : [
+        0.25,
+        0.43,
+        0.65
+      ],
+      "layer" : 5,
+      "length" : 55,
+      "name" : "Front thigh",
+      "parent" : 0,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 28,
+      "x" : 18,
+      "y" : 0
+    },
+    {
+      "angle" : 15,
+      "color" : [
+        0.4,
+        0.26,
+        0.19
+      ],
+      "layer" : 6,
+      "length" : 55,
+      "name" : "Front shin",
+      "parent" : 10,
+      "pivotX" : 0.5,
+      "pivotY" : 0.15,
+      "width" : 25,
+      "x" : 0,
+      "y" : 55
+    }
+  ],
+  "duration" : 2,
+  "frames" : [
+    {
+      "angles" : [
+        0,
+        180,
+        0,
+        145,
+        -20,
+        215,
+        -35,
+        -100,
+        20,
+        -15,
+        -20,
+        15
+      ],
+      "time" : 0
+    },
+    {
+      "angles" : [
+        0,
+        180,
+        0,
+        200,
+        -20,
+        160,
+        -35,
+        -100,
+        -30,
+        30,
+        30,
+        -10
+      ],
+      "time" : 1
+    },
+    {
+      "angles" : [
+        0,
+        180,
+        0,
+        145,
+        -20,
+        215,
+        -35,
+        -100,
+        20,
+        -15,
+        -20,
+        15
+      ],
+      "time" : 2
+    }
+  ],
+  "version" : 1
+}

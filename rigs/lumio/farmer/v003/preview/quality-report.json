@@ -1,0 +1,120 @@
+{
+  "boneCount": 13,
+  "keyframeCount": 3,
+  "duration": 1,
+  "revision": "00c73c398eb49d276679f748c16ad21d15e43817aae85708afe73deed70ef424",
+  "phases": [
+    {
+      "time": 0,
+      "label": "idle bind"
+    },
+    {
+      "time": 0.5,
+      "label": "idle breathe"
+    },
+    {
+      "time": 1,
+      "label": "idle bind"
+    }
+  ],
+  "endpointCoverage": true,
+  "seamlessLoop": true,
+  "warnings": [],
+  "frameCount": 15,
+  "fps": 15,
+  "clippedFrames": [],
+  "alphaBounds": [
+    [
+      111,
+      23,
+      273,
+      319
+    ],
+    [
+      111,
+      23,
+      273,
+      319
+    ],
+    [
+      111,
+      23,
+      273,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      109,
+      23,
+      271,
+      319
+    ],
+    [
+      109,
+      23,
+      271,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      110,
+      23,
+      272,
+      319
+    ],
+    [
+      111,
+      23,
+      273,
+      319
+    ],
+    [
+      111,
+      23,
+      273,
+      319
+    ]
+  ],
+  "emptyFrames": [],
+  "visualReviewRequired": true
+}

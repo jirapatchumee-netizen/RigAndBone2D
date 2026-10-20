@@ -1,0 +1,5 @@
+The following is a diff from the previous accessibility tree for Window: "RigAndBone2D — Chibi cutout - joint review" with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~		72 text field (settable) Value: 16.69, ID: X
+~		73 slider (settable, float) Help: Adjust X · Command-Z to undo, Value: 16.68754983050848, ID: X
+~			74 value indicator (settable, float) 16.68754983050848
+The focused UI element is 0 standard window RigAndBone2D — Chibi cutout - joint review, Secondary Actions: Raise

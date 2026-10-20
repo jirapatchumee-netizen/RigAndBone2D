@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "source": "Assets/Inbox/CHR-F2b-farmer-parts-fix/master.png",
+  "sourceSHA256": "825d4d45c351b814eac825ca543bc0670c0c15652caabc43a9e821341e53e6a7",
+  "sheetSize": [
+    1536,
+    1024
+  ],
+  "alphaFloor": 48,
+  "objects": {
+    "char_farmer_part_hat_v01": {
+      "region": [
+        2,
+        2,
+        45,
+        36
+      ],
+      "blobCount": 1,
+      "size": [
+        622,
+        255
+      ],
+      "faintAlphaRatioBefore": 0.0479,
+      "faintAlphaRatioAfter": 0.0049,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_torso_v01": {
+      "region": [
+        45,
+        2,
+        71,
+        36
+      ],
+      "blobCount": 1,
+      "size": [
+        379,
+        310
+      ],
+      "faintAlphaRatioBefore": 0.0614,
+      "faintAlphaRatioAfter": 0.0041,
+      "touchesRegionBorder": true,
+      "warning": "artwork reaches region border (generator ignored layout slightly; centroid assignment still used)"
+    },
+    "char_farmer_part_pelvis_v01": {
+      "region": [
+        71,
+        2,
+        99,
+        36
+      ],
+      "blobCount": 1,
+      "size": [
+        318,
+        240
+      ],
+      "faintAlphaRatioBefore": 0.0624,
+      "faintAlphaRatioAfter": 0.0055,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_upper_arm_r_v01": {
+      "region": [
+        1,
+        37,
+        26,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        122,
+        209
+      ],
+      "faintAlphaRatioBefore": 0.1182,
+      "faintAlphaRatioAfter": 0.0097,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_forearm_r_v01": {
+      "region": [
+        26,
+        37,
+        51,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        119,
+        249
+      ],
+      "faintAlphaRatioBefore": 0.0982,
+      "faintAlphaRatioAfter": 0.0089,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_upper_arm_l_v01": {
+      "region": [
+        51,
+        37,
+        76,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        115,
+        220
+      ],
+      "faintAlphaRatioBefore": 0.1171,
+      "faintAlphaRatioAfter": 0.011,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_forearm_l_v01": {
+      "region": [
+        76,
+        37,
+        99,
+        67
+      ],
+      "blobCount": 1,
+      "size": [
+        126,
+        243
+      ],
+      "faintAlphaRatioBefore": 0.11,
+      "faintAlphaRatioAfter": 0.0104,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_thigh_r_v01": {
+      "region": [
+        1,
+        67,
+        26,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        183,
+        219
+      ],
+      "faintAlphaRatioBefore": 0.0596,
+      "faintAlphaRatioAfter": 0.0068,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_shin_r_v01": {
+      "region": [
+        26,
+        67,
+        51,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        202,
+        276
+      ],
+      "faintAlphaRatioBefore": 0.0642,
+      "faintAlphaRatioAfter": 0.0069,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_thigh_l_v01": {
+      "region": [
+        51,
+        67,
+        76,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        190,
+        219
+      ],
+      "faintAlphaRatioBefore": 0.0572,
+      "faintAlphaRatioAfter": 0.0064,
+      "touchesRegionBorder": false
+    },
+    "char_farmer_part_shin_l_v01": {
+      "region": [
+        76,
+        67,
+        99,
+        99
+      ],
+      "blobCount": 1,
+      "size": [
+        201,
+        276
+      ],
+      "faintAlphaRatioBefore": 0.0592,
+      "faintAlphaRatioAfter": 0.0061,
+      "touchesRegionBorder": false
+    }
+  },
+  "unassignedBlobs": [],
+  "ok": true
+}

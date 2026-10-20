@@ -1,0 +1,5 @@
+ts	phase	decision	why	evidence	result
+2026-10-19T18:47:35.720256+00:00	design	Separate draw-order projection from stored hierarchy	Dragging layer rows must not move bones or animation indices	../../Sources/RigAndBone2D/Editor.swift	implemented
+2026-10-19T18:47:35.720377+00:00	verification	Test native row drags in separate app/project	Preserve user open project and unsaved changes	gui-proof.json	up and down pass
+2026-10-19T18:47:35.720380+00:00	verification	Read saved projects and render overlap pixels	List order alone cannot prove compositing or persistence	gui-readback.json	only layer fields differ
+2026-10-19T18:47:35.720381+00:00	review	Independent review checked insertion and stale payload rejection	Guard row mapping across project and mode changes	../../Sources/RigAndBone2D/Editor.swift	no actionable findings
